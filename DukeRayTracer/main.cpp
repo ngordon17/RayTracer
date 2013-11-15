@@ -34,7 +34,7 @@ int main(int argc, const char * argv[])
     
     vector<Shape*> shapes;
     
-    //helo
+    //ROARROAR
     //adding sphere with center (250, 250, -1000) and radius of 150
     //shapes.push_back(new Sphere(Vector3(0, 0, 0), sqrt(2), Color(.2, .2, .8)));
     //adding triangle
