@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/main.cpp \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Vector3.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Color.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Image.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Shape.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Ray.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Texture.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Vector2.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/ONB.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/BBox.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Material.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Triangle.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Sphere.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Camera.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/MarbleTexture.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/SolidNoise.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/UVSphere.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/NoiseTexture.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/ImageTexture.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/TriangleMesh.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Mesh.h \
+  /Users/yankeenjg/Desktop/DukeRayTracer/DukeRayTracer/Vertex.h

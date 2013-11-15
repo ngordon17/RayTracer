@@ -1,0 +1,1095 @@
+TRayTracer
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526DDE80000000000000044C
+t1382932096
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526DDE8000000000000001DB
+t1382932096
+s475
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o
+t1384243600
+s1868
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o
+t1384243603
+s30484
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o
+t1384243600
+s18460
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+t1384243602
+s77816
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o
+t1384243603
+s24724
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+t1384243600
+s168108
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o
+t1384243601
+s63648
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o
+t1384243601
+s22880
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o
+t1384243601
+s1868
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o
+t1384243600
+s10312
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o
+t1384243600
+s88616
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o
+t1384243602
+s1868
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o
+t1384243603
+s9324
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
+t1384243601
+s14568
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o
+t1384243600
+s11088
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o
+t1384243601
+s1864
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/RayTracer.LinkFileList
+c000000005281E18F00000000000010DE
+t1384243599
+s4318
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o
+t1384243602
+s16652
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o
+t1384243601
+s1868
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o
+t1384243602
+s1884
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o
+t1384243603
+s18184
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o
+t1384243602
+s20140
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o
+t1384243602
+s1872
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o
+t1384243602
+s26436
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o
+t1384243603
+s25224
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o
+t1384243603
+s18084
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o
+t1384243600
+s17364
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
+t1384243601
+s19828
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o
+t1384243604
+s1872
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+t1384243601
+s123676
+
+N/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer
+t2
+s0
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp
+c000000005281CE67000000000000009C
+t1384238695
+s156
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp
+c000000005281E16500000000000009AC
+t1384243557
+s2476
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp
+c00000000528159220000000000000789
+t1384208674
+s1929
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+c00000000527C0D1A000000000000080B
+t1383861530
+s2059
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp
+c0000000052807EA900000000000009DC
+t1384152745
+s2524
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+c000000005280789A0000000000000D46
+t1384151194
+s3398
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp
+c0000000052815AD20000000000000389
+t1384209106
+s905
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp
+c000000005281C4830000000000000595
+t1384236163
+s1429
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp
+c00000000527C2E340000000000000455
+t1383870004
+s1109
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp
+c0000000052807F1D00000000000001CB
+t1384152861
+s459
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp
+c000000005281CD490000000000002ED5
+t1384238409
+s11989
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp
+c000000005281645F000000000000009C
+t1384211551
+s156
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp
+c00000000528071720000000000000153
+t1384149362
+s339
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+c00000000527C19250000000000000772
+t1383864613
+s1906
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp
+c000000005281E18800000000000000A0
+t1384243592
+s160
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp
+c00000000527C1C650000000000000099
+t1383865445
+s153
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp
+c00000000527C396F0000000000001149
+t1383872879
+s4425
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp
+c00000000527C4008000000000000009D
+t1383874568
+s157
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp
+c000000005280718100000000000000AE
+t1384149377
+s174
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp
+c0000000052815AD20000000000000CCA
+t1384209106
+s3274
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp
+c0000000052815C17000000000000081B
+t1384209431
+s2075
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp
+c0000000052806D8100000000000000A2
+t1384148353
+s162
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp
+c0000000052816CA60000000000000CCF
+t1384213670
+s3279
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp
+c0000000052816C970000000000000C95
+t1384213655
+s3221
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp
+c000000005281598900000000000008AF
+t1384208777
+s2223
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp
+c00000000527C39850000000000000AC2
+t1383872901
+s2754
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+c00000000527C2E340000000000000D93
+t1383870004
+s3475
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp
+c00000000528163F300000000000000A0
+t1384211443
+s160
+
+N/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+c0000000052815E120000000000000930
+t1384209938
+s2352
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp
+r0
+
+CBuild AST from /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4c50770f1932b841^4be8820f1932b841^---0#1#1#--18"Check dependencies36"6505644A-568C-4E0A-8EFE-26D8DAA1A2D1-
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936399.511993
+e405936400.071565
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp198"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o RayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2d21830f1932b841^8d5d12101932b841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp0000000000000000^3098"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o RayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o36"179D2389-3A06-4E19-B09F-A54E4A2614C3-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936403.043311
+e405936403.657363
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp196"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o RayTracer/BVH.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler272e0b131932b841^5649a8131932b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp0000000000000000^3092"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o RayTracer/BVH.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/BVH.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o36"1AD463E3-D1A5-4CFC-BAE3-78D98A3D52E3-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936399.512166
+e405936400.086266
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o RayTracer/Camera.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere734830f1932b841^941616101932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o RayTracer/Camera.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o36"785BAEBC-257D-4ABF-8F64-65F8994B5D7C-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936402.239074
+e405936402.842303
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp200"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler554c3d121932b841^1ea4d7121932b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp0000000000000000^3104"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o RayTracer/Color.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o36"FCA7486B-E998-45F3-83CD-2F92A6735DEA-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936403.438034
+e405936403.971156
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp204"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o RayTracer/DSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7d3c70131932b841^dc9ef8131932b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp0000000000000000^3116"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o RayTracer/DSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/DSphere.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o36"1F313815-F331-4ECC-AB86-123152F45487-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936399.512483
+e405936400.263935
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp200"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0d53830f1932b841^a79443101932b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp0000000000000000^3104"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o RayTracer/Image.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o36"94234696-18D4-4A96-BF22-F47A3BAB4D7B-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.664933
+e405936401.304989
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp214"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o RayTracer/ImageTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6952aa101932b841^bb474e111932b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp0000000000000000^3146"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o RayTracer/ImageTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ImageTexture.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o36"87549B5E-4027-4476-AFB3-2D3246C55044-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.641047
+e405936401.236230
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp206"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o RayTracer/Instance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere833a4101932b841^b3793c111932b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp0000000000000000^3122"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o RayTracer/Instance.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Instance.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o36"84294F40-EC5B-4C1A-929B-31C3D5380561-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.712507
+e405936401.245007
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp198"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o RayTracer/List.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6f7fb6101932b841^bcca3e111932b841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp0000000000000000^3098"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o RayTracer/List.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/List.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o36"37EF6E25-72BE-4750-863A-A2212EF800BE-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936399.513123
+e405936400.079098
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp216"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o RayTracer/MarbleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler349f830f1932b841^4cfe13101932b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp0000000000000000^3152"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o RayTracer/MarbleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o36"46839F5F-5D7B-4BB5-A24F-3D1CED16BDD8-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.086504
+e405936400.712255
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o RayTracer/Matrix.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc93c16101932b841^1157b6101932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o RayTracer/Matrix.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Matrix.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o36"683F7A90-85BF-4779-84D6-F8F521D3D4CC-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936402.413951
+e405936403.042894
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp198"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o RayTracer/Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf50f6a121932b841^72fa0a131932b841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp0000000000000000^3098"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o RayTracer/Mesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o36"B9542E7C-C7EF-4D33-B202-AA5A50E4C3F2-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936402.842962
+e405936403.437726
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp214"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o RayTracer/NoiseTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdee4d7121932b841^450f70131932b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp0000000000000000^3146"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o RayTracer/NoiseTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o36"FA1EF1DC-281A-49A9-976D-E0565DEF4AF2-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.236570
+e405936401.804424
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp196"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc1a83c111932b841^0e12ce111932b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp0000000000000000^3092"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o RayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o36"E01AB98E-17F8-4591-9B2A-436141CEBC76-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.071818
+e405936400.640739
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o RayTracer/QSplit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler917b12101932b841^eae9a3101932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o RayTracer/QSplit.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/QSplit.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o36"11AF522E-89BF-4A32-BB38-18FEB29E64CB-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.245307
+e405936401.820198
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp196"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o RayTracer/Ray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd7fa3e111932b841^59f9d1111932b841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp0000000000000000^3092"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o RayTracer/Ray.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o36"06114D77-BDF1-4D7B-B288-6CC308F5F1BE-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.805264
+e405936402.413363
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o RayTracer/Sample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5c3ece111932b841^28d269121932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o RayTracer/Sample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sample.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o36"B51D5378-65B6-4655-A4A4-EA98C1A7A70E-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.047148
+e405936401.603706
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp200"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o RayTracer/Shape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb3280c111932b841^bd8c9a111932b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp0000000000000000^3104"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o RayTracer/Shape.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o36"2A83AF2F-7366-4311-AAAB-7AF83472C028-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.820960
+e405936402.401704
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp216"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o RayTracer/SimpleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler9a43d2111932b841^42cf66121932b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp0000000000000000^3152"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o RayTracer/SimpleTexture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o36"F3BE9879-2F9E-4F2E-B5E5-729272837446-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936402.465909
+e405936403.043343
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp210"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o RayTracer/SolidNoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler745e77121932b841^bc1f0b131932b841^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp0000000000000000^3134"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o RayTracer/SolidNoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o36"3F77846F-03DC-46E0-931A-70AE9A20507C-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.885081
+e405936402.465634
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o RayTracer/Sphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler71ade2111932b841^1e3477121932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o RayTracer/Sphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o36"0CB7B81B-527B-46E1-A92E-F5C7A3FC62F1-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936402.402016
+e405936403.042754
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp204"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o RayTracer/Texture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler4b0367121932b841^95f20a131932b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp0000000000000000^3116"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o RayTracer/Texture.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o36"01F106F0-3074-468A-B7E3-4ACA6A6FABF7-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.604353
+e405936402.238794
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp206"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o RayTracer/Triangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler10cf9a111932b841^a7073d121932b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp0000000000000000^3122"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o RayTracer/Triangle.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o36"893E5EDE-C5F0-4894-B0FE-C8DDEFB13AAA-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936403.043144
+e405936403.641563
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Mesh.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp214"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o RayTracer/TriangleMesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6f2d0b131932b841^cd3da4131932b841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp0000000000000000^3146"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o RayTracer/TriangleMesh.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/TriangleMesh.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o36"8B114523-065C-4DD2-BF97-A40CAA3765F2-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936403.044103
+e405936403.633977
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SimpleTexture.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp206"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o RayTracer/UVSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc66a0b131932b841^d844a2131932b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp0000000000000000^3122"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o RayTracer/UVSphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o36"2333334E-B42A-47A2-A40A-BC305BBB85D4-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.079654
+e405936400.664691
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp204"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o RayTracer/Vector2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler207c14101932b841^0b2aaa101932b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp0000000000000000^3116"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o RayTracer/Vector2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o36"5EBBF619-FCB4-4192-BA78-10DDB4110F5C-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936401.305302
+e405936401.883750
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp204"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler53404e111932b841^4148e2111932b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp0000000000000000^3116"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o RayTracer/Vector3.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o36"062CB4C3-38A0-4967-8DCB-EA96C97D8D28-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936403.634266
+e405936404.048802
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp202"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o RayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf777a2131932b841^b6800c141932b841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp0000000000000000^3110"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o RayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vertex.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o36"E8774D56-A5BD-4390-9D0F-84636239CEEF-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CCompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s405936400.264648
+e405936401.046389
+r1
+xCompileC
+xDerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+x/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector3.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Color.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Image.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Shape.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Ray.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Texture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Vector2.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/ONB.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/BBox.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Triangle.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Sphere.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/Camera.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/MarbleTexture.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/SolidNoise.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/UVSphere.h
+d/Users/yankeenjg/RayTracer/RayTracer/RayTracer/NoiseTexture.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp198"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler49d843101932b841^69e00b111932b841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp0000000000000000^3098"CompileC DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o RayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yankeenjg/RayTracer/RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-generated-files.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-own-target-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/RayTracer-project-headers.hmap -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/DerivedSources -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.dia -c /Users/yankeenjg/RayTracer/RayTracer/RayTracer/main.cpp -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o36"7D899263-6800-40D8-BB6B-0A79292AA02B-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+
+CLd /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer normal x86_64
+s405936404.050691
+e405936404.070134
+r0
+xLd
+x/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer
+xnormal
+xx86_64
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/RayTracer.LinkFileList
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BBox.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Camera.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Image.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/MarbleTexture.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector2.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Matrix.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/main.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Instance.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ImageTexture.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/List.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Shape.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/ONB.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Ray.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vector3.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Triangle.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sample.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SimpleTexture.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Sphere.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Color.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Texture.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Mesh.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/SolidNoise.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/NoiseTexture.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/TriangleMesh.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/UVSphere.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/DSphere.o
+d/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/Vertex.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+oduplicate symbol __Z6qsplitPP5Shapeifi in:
+o    /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o
+o    /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.o
+old: 1 duplicate symbol for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer69"Ld DerivedData/RayTracer/Build/Products/Debug/RayTracer normal x86_6407090d141932b841^f9f311141932b841^-471"duplicate symbol __Z6qsplitPP5Shapeifi in:    /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/QSplit.o    /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/BVH.old: 1 duplicate symbol for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@42"1 duplicate symbol for architecture x86_64-405936404#344#47#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-405936404#391#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1050"Ld DerivedData/RayTracer/Build/Products/Debug/RayTracer normal x86_64    cd /Users/yankeenjg/RayTracer/RayTracer    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -F/Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug -filelist /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/RayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Intermediates/RayTracer.build/Debug/RayTracer.build/Objects-normal/x86_64/RayTracer_dependency_info.dat -o /Users/yankeenjg/RayTracer/RayTracer/DerivedData/RayTracer/Build/Products/Debug/RayTracer36"44EC66B3-5221-4AEA-B7F2-BD470B5A0B90-
+b47121F8F-559B-46DB-945A-DA1D160D3647
+

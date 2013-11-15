@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DC0817A9-6EDF-4BB3-AE48-0798CEE7B756</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RayTracer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>558460B7-4101-4CD8-A309-0469B604B8CB</key>
+		<string>https://github.com/dalin2/RayTracer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RayTracer/RayTracer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>558460B7-4101-4CD8-A309-0469B604B8CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dalin2/RayTracer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>558460B7-4101-4CD8-A309-0469B604B8CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>558460B7-4101-4CD8-A309-0469B604B8CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RayTracer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
