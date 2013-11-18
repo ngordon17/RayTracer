@@ -8,12 +8,14 @@
 
 #include "List.h"
 
+//initializes list with a size of 4
 template <class T> List<T>::List() {
     numData = 0;
     arraySize = 4;
     data = new T[arraySize];
 }
 
+//initializes list with specified size
 template <class T> List<T>::List(int a) {
     numData = 0;
     arraySize = a;
@@ -25,6 +27,7 @@ template <class T> List<T>::~List() {
     delete [] data;
 }
 
+//adds item to the end of the list and doubles the size if full
 template <class T> bool List<T>::append(T item) {
     if (numData == arraySize) {
         arraySize *=2;
@@ -39,6 +42,7 @@ template <class T> bool List<T>::append(T item) {
     return true;
 }
 
+//makes the size of the list equal to the number of items in the list if room available
 template <class T> bool List<T>::truncate() {
     if (numData != arraySize) {
         T *temp = data;

@@ -11,6 +11,8 @@
 
 Image::Image() {}
 
+
+//Initializes a raster array where the default color for each pixel is black.
 Image::Image(int width, int height) {
     nx = width;
     ny = height;
@@ -21,6 +23,10 @@ Image::Image(int width, int height) {
     }
 }
 
+/*
+ Initializes a raster array where each pixel is set to the color specified by the argument
+ 'background.'
+ */
 Image::Image(int width, int height, Color background) {
     nx = width;
     ny = height;
@@ -41,6 +47,7 @@ Image::~Image(void) {
     delete [] raster;
 }
 
+//sets a pixel value (x, y) in the raster to color
 bool Image::set(int x, int y, const Color& color) {
     if (x < 0 || x >= nx) return false;
     if (y < 0 || y >= ny) return false;
@@ -48,6 +55,7 @@ bool Image::set(int x, int y, const Color& color) {
     return true;
 }
 
+//corrects pixel color values by accounting for the nonlinear intensity on the screen
 void Image::gammaCorrect(float gamma) {
     float power = 1.0 / gamma;
     for (int i = 0; i < nx; i++) {
@@ -59,8 +67,9 @@ void Image::gammaCorrect(float gamma) {
     }
 }
 
+//writes a binary PPM with the values in the raster array
 void Image::writePPM(ostream& out) {
-    //output header
+    //output header with magic number and number of pixels for width and height
     out << "P3\n";
     out << nx << ' ' << ny << '\n';
     out << "255\n";
@@ -68,6 +77,8 @@ void Image::writePPM(ostream& out) {
     unsigned int ired, igreen, iblue;
     unsigned char red, green, blue;
     
+    //for each pixel, get the color value form the raster array and output in
+    //the PPM file
     for (int i = ny-1; i >= 0; i--) {
         for (int j = 0; j < nx; j++) {
             ired = (unsigned int)(256*raster[j][i].getRed());

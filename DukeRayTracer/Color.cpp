@@ -56,6 +56,7 @@ void Color::clamp() {
     if (b < 0.0f) b = 0.0f;
 }
 
+//writes the r, g, and b components of a color to an output stream
 ostream& operator<<(ostream &out, const Color &the_rgb) {
     out << the_rgb.getRed() << ' '
     << the_rgb.getGreen() << ' '

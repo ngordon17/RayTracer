@@ -12,6 +12,10 @@
 #include <math.h>
 #include <iostream>
 
+/*
+ This class is nearly the same as Vector3 except it is a two-dimensional vector
+ rather than a three-dimensional vector.
+ */
 class Vector2 {
 public:
     Vector2() {}

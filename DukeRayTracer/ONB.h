@@ -16,12 +16,15 @@ class ONB {
 public:
     ONB() {}
     ONB(const Vector3& a, const Vector3& b, const Vector3& c) {U = a; V = b; W= c;}
+    
+    //create an orthonormal basis from one given vector
     void initFromU(const Vector3& u);
     void initFromV(const Vector3& v);
     void initFromW(const Vector3& w);
     
     void set(const Vector3& a, const Vector3& b,  const Vector3& c) {U = a; V = b; W = c;}
     
+    //create an orthonormal basis from two given vectors
     void initFromUV(const Vector3& u, const Vector3& v);
     void initFromVU(const Vector3& v, const Vector3& u);
     void initFromUW(const Vector3& u, const Vector3& w);

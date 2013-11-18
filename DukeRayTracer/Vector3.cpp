@@ -18,6 +18,7 @@ const Vector3& Vector3::operator+() const {
     return *this;
 }
 
+//negates all components of the vector
 Vector3 Vector3::operator-() const {
     return Vector3(-e[0], -e[1], -e[2]);
 }
@@ -34,6 +35,7 @@ void Vector3::normalize() {
     *this = *this / (*this).magnitude();
 }
 
+//returns the minimum component of the vector
 float Vector3::minComponent() const {
     float temp = e[0];
     if (e[1] < temp) temp = e[1];
@@ -42,6 +44,7 @@ float Vector3::minComponent() const {
     return temp;
 }
 
+//returns the maximum component of the vector
 float Vector3::maxComponent() const {
     float temp = e[0];
     if (e[1] > temp) temp = e[1];
@@ -50,6 +53,7 @@ float Vector3::maxComponent() const {
     return temp;
 }
 
+//returns the absolute value of the minimum component of the vector
 float Vector3::minAbsComponent() const {
     float temp = fabs(e[0]);
     if (fabs(e[1]) < temp) temp = fabs(e[1]);
@@ -58,6 +62,7 @@ float Vector3::minAbsComponent() const {
     return temp;
 }
 
+//returns the absolute value of the maxiumum component of the vector
 float Vector3::maxAbsComponent() const {
     float temp = fabs(e[0]);
     if (fabs(e[1]) > temp) temp = fabs(e[1]);
@@ -135,12 +140,17 @@ float dot(const Vector3& v1, const Vector3& v2) {
     return v1.x() * v2.x() + v1.y() * v2.y() + v1.z() * v2.z();
 }
 
+//calculates the angle between two three-dimensional vectors
 float findAngle(const Vector3& v1, const Vector3& v2) {
     float dotProduct = dot(v1, v2);
     float cos = v1.magnitude() * v2.magnitude();
     return acos(dotProduct/cos);
 }
 
+/*
+ Calculates the product of three vectors which is the dot product of the resulting
+ vector from the cross product of two vectors and the third vector
+ */
 float tripleProduct(const Vector3& v1, const Vector3& v2, const Vector3& v3) {
     return dot(cross(v1, v2), v3);
 }

@@ -73,6 +73,7 @@ void ONB::initFromWV(const Vector3& w, const Vector3& v) {
     V = cross(W, U);
 }
 
+//checks if the u, v, and w vectors of two orthnormal bases are equal to each other
 bool operator==(const ONB& o1, const ONB& o2) {
     return (o1.u() == o2.u() && o1.v() == o2.v() && o1.w() == o2.w());
 }

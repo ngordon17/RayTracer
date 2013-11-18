@@ -13,7 +13,7 @@
 
 // Dynamic array that stores data in ordered structure with
 // no delete operations. Items are added with append. Base array
-// doubles in side when full.
+// doubles in size when full.
 
 template <class T> class List {
 public:

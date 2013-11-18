@@ -20,6 +20,7 @@ public:
     Vector3(float x, float y, float z);
     Vector3(const Vector3& v) { *this = v; }
     
+    //getters and setters for the x, y, and z components of a 3D vector
     float x() const { return e[0]; }
     float y() const { return e[1]; }
     float z() const { return e[2]; }
@@ -44,12 +45,21 @@ public:
     friend bool operator==(const Vector3& v1, const Vector3& v2);
     friend bool operator!=(const Vector3& v1, const Vector3& v2);
     
+    /*
+     These are arithmetic operations that result in the creation of a new Vector3. This utilizes
+     overloading operators so that mathematical operations could be used directly on 
+     Vector3 objects.
+     */
     friend Vector3 operator+(const Vector3& v1, const Vector3& v2);
     friend Vector3 operator-(const Vector3& v1, const Vector3& v2);
     friend Vector3 operator/(const Vector3& v1, float scal);
     friend Vector3 operator*(const Vector3& v1, float scal);
     friend Vector3 operator*(float scalar, const Vector3 &v1);
     
+    /*
+     These are arithmetic operations that operate on an existing vector. Returns a 
+     reference to the vector being operated on.
+     */
     Vector3& operator=(const Vector3& v2);
     Vector3& operator+=(const Vector3& v2);
     Vector3& operator-=(const Vector3& v2);

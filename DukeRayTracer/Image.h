@@ -35,7 +35,7 @@ public:
     Color getPixel(int i, int j);
     
 private:
-    Color** raster;
+    Color** raster; //2D raster array of RGB colors for each pixel
     int nx;
     int ny;
     
