@@ -23,6 +23,10 @@
 #include "ImageTexture.h"
 #include "TriangleMesh.h"
 #include "Mesh.h"
+#include "Parallelogram.h"
+#include "SimpleTexture.h"
+#include "DiffuseMaterial.h"
+#include "Instance.h"
 
 int main(int argc, const char * argv[])
 {
@@ -34,29 +38,37 @@ int main(int argc, const char * argv[])
     
     vector<Shape*> shapes;
     
-    //ROARROAR
-    //adding sphere with center (250, 250, -1000) and radius of 150
-    //shapes.push_back(new Sphere(Vector3(0, 0, 0), sqrt(2), Color(.2, .2, .8)));
-    //adding triangle
-    /*
-    shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800),
-                                  Vector3(0.0f, 100.0f, -1000),
-                                  Vector3(450.0f, 20.0f, -1000),
-                                  Color(.8, .2, .2)));
-     */
     
-    //shapes.push_back(new Triangle(Vector3(-0.5, 0, 1), Vector3(0.5, 0, 1), Vector3(0, 1, 0), Color(.2, .2, .8)));
-    shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new ImageTexture("/Users/dalin/Desktop/School/Duke/Senior Fall/CS 344/RayTracer/RayTracer/RayTracer/NoiseTexture.ppm")));
+    
+   
+    
+    /*
+     How to implement materials??
+     shapes.push_back(new Parallelogram(Vector3(100, 0, 0), Vector3(50, 50, 0), Vector3(50, 50, 0), new DiffuseMaterial(new SimpleTexture(Color(1, 0, 0)))));
+    */
+    
+    /* //create an ellipsoid using instance with sphere and scale matrix
+    shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
+    */
+    
+    /* //texture map sphere with world map i.e. make a globe
+    shapes.push_back(new UVSphere(Vector3(0, 0, -500), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
+    */
+    
+    
+    /* //create sphere with triangle
+    shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
+    shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800), Vector3(0.0f, 100.0f, -1000), Vector3(450.0f, 20.0f, -1000), Color(.8, .2, .2)));
+    */
+    
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(2)));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
-
-    
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(3), new MarbleTexture(10)));
     
-    float res = 101;
+    float res = 512;
     Image im(res, res);
-    Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 2);
+    Camera cam(Vector3(0, 0, 1), Vector3(0, 0, -1), Vector3(0, 1, 0), 0.0, -1, 1, -1, 1, 1);
         
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
@@ -74,10 +86,12 @@ int main(int argc, const char * argv[])
             }
             
             //if intersects with a shape, draw the shape's color
-            if (is_a_hit)
+            if (is_a_hit) {
                 im.set(i, j, record.tex -> value(record.uv, record.intersection));
-            else
+            }
+            else {
                 im.set(i, j, Color(.2, .2, .2));
+            }
         }
     }
     im.writePPM(cout);

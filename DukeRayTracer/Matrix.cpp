@@ -30,7 +30,7 @@ void Matrix::invert() {
     
     inverse.matrix[1][0] = -det3(matrix[1][0], matrix[1][2], matrix[1][3], matrix[2][0], matrix[2][2], matrix[2][3],
                                  matrix[3][0], matrix[3][2], matrix[3][3]) / det;
-    inverse.matrix[1][1] = det3(matrix[0][0], matrix[0][2], matrix[0][3], matrix[1][0], matrix[1][2], matrix[1][3],
+    inverse.matrix[1][1] = det3(matrix[0][0], matrix[0][2], matrix[0][3], matrix[2][0], matrix[2][2], matrix[2][3],
                                 matrix[3][0], matrix[3][2], matrix[3][3]) / det;
     inverse.matrix[1][2] = -det3(matrix[0][0], matrix[0][2], matrix[0][3], matrix[1][0], matrix[1][2], matrix[1][3],
                                  matrix[3][0], matrix[3][2], matrix[3][3]) / det;
@@ -54,6 +54,17 @@ void Matrix::invert() {
                                  matrix[3][0], matrix[3][1], matrix[3][2]) / det;
     inverse.matrix[3][3] = det3(matrix[0][0], matrix[0][1], matrix[0][2], matrix[1][0], matrix[1][1], matrix[1][2],
                                 matrix[2][0], matrix[2][1], matrix[2][2]) / det;
+    
+    //check for -0
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            if (abs(inverse.matrix[i][j]) == 0) {
+                inverse.matrix[i][j] = 0;
+            }
+        }
+    }
+    
+    
     *this = inverse;
 }
 
@@ -222,7 +233,7 @@ Matrix getZeroMatrix() {
     return ret;
 }
 
-Matrix getIdentityMatrix() {
+Matrix Matrix::getIdentityMatrix() {
     Matrix ret;
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
@@ -234,14 +245,14 @@ Matrix getIdentityMatrix() {
 }
 
 Matrix getTranslationMatrix(float xt, float yt, float zt) {
-    Matrix ret = getIdentityMatrix();
+    Matrix ret = Matrix::getIdentityMatrix();
     ret.matrix[0][3] = xt;
     ret.matrix[1][3] = yt;
     ret.matrix[2][3] = zt;
     return ret;
 }
 
-Matrix getScaleMatrix(float xs, float ys, float zs) {
+Matrix Matrix::getScaleMatrix(float xs, float ys, float zs) {
     Matrix ret = getZeroMatrix();
     ret.matrix[0][0] = xs;
     ret.matrix[1][1] = ys;
@@ -283,7 +294,7 @@ Matrix getRotationMatrix(const Vector3& axis, float angle) {
 }
 
 Matrix getXRotationMatrix(float angle) {
-    Matrix ret = getIdentityMatrix();
+    Matrix ret = Matrix::getIdentityMatrix();
     float cosine = cos(angle);
     float sine = sin(angle);
     ret.matrix[1][1] = cosine;
@@ -294,7 +305,7 @@ Matrix getXRotationMatrix(float angle) {
 }
 
 Matrix getYRotationMatrix(float angle) {
-    Matrix ret = getIdentityMatrix();
+    Matrix ret = Matrix::getIdentityMatrix();
     float cosine = cos(angle);
     float sine = sin(angle);
     ret.matrix[0][0] = cosine;
@@ -305,7 +316,7 @@ Matrix getYRotationMatrix(float angle) {
 }
 
 Matrix getZRotationMatrix(float angle) {
-    Matrix ret = getIdentityMatrix();
+    Matrix ret = Matrix::getIdentityMatrix();
     float cosine = cos(angle);
     float sine = sin(angle);
     ret.matrix[0][0] = cosine;
@@ -316,7 +327,7 @@ Matrix getZRotationMatrix(float angle) {
 }
 
 Matrix getViewMatrix(const Vector3& eye, const Vector3& gaze, const Vector3& up) {
-    Matrix ret = getIdentityMatrix();
+    Matrix ret = Matrix::getIdentityMatrix();
     //make orthonormal basis
     Vector3 w = (-normalize(gaze));
     Vector3 u = normalize(cross(up, w));
@@ -335,7 +346,7 @@ Matrix getViewMatrix(const Vector3& eye, const Vector3& gaze, const Vector3& up)
     ret.matrix[1][2] = w.z();
     
     //translate eye to xyz origin
-    Matrix move = getIdentityMatrix();
+    Matrix move = Matrix::getIdentityMatrix();
     move.matrix[0][3] = -(eye.x());
     move.matrix[1][3] = -(eye.y());
     move.matrix[2][3] = -(eye.z());
@@ -348,8 +359,8 @@ std::ostream& operator<<(std::ostream& out, const Matrix& right_op) {
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
             out << std::setprecision(3) << std::setw(10) << right_op.matrix[i][j];
-            out << std::endl;
         }
+        out << std::endl;
     }
     return out;
 }

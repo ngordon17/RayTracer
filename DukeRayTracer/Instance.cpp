@@ -19,10 +19,10 @@ bool Instance::intersect(const Ray& r, float tmin, float tmax, float time, Inter
     
     if (prim -> intersect(tray, tmin, tmax, time, record)) {
         record.intersection = transformLoc(M, record.intersection);
-        Vector3 normal = transformVec(N.getTranspose(), record.uvw.w()); //correct?? rec.uvw?
+        Vector3 normal = transformVec(N.getTranspose(), record.uvw.w()); 
         ONB uvw;
         uvw.initFromW(normal);
-        record.uvw = uvw; //correct??
+        record.uvw = uvw;
         return true;
     }
     return false;

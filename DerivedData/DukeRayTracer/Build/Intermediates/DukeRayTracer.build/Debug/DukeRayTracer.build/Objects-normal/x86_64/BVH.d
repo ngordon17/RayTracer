@@ -1,12 +1,13 @@
-dependencies: /Users/yankeenjg/Desktop/RayTracer/RayTracer/BVH.cpp \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/BVH.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Shape.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Ray.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Vector3.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Texture.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Vector2.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Color.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/ONB.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/BBox.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Material.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/QSplit.h
+dependencies: \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BVH.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BVH.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Shape.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Material.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/QSplit.h

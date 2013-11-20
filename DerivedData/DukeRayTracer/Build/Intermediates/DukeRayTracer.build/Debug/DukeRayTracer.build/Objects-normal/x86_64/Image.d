@@ -1,3 +1,4 @@
-dependencies: /Users/yankeenjg/Desktop/RayTracer/RayTracer/Image.cpp \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Image.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Color.h
+dependencies: \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Image.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Image.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h

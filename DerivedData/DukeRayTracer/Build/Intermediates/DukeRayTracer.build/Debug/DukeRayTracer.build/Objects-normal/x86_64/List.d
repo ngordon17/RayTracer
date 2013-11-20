@@ -1,2 +1,3 @@
-dependencies: /Users/yankeenjg/Desktop/RayTracer/RayTracer/List.cpp \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/List.h
+dependencies: \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/List.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/List.h

@@ -43,9 +43,9 @@ public:
     friend Vector3 transformVec(const Matrix& left_op, const Vector3& right_op);
     
     friend Matrix getZeroMatrix();
-    friend Matrix getIdentityMatrix();
+    static Matrix getIdentityMatrix();
     friend Matrix getTranslationMatrix(float xt, float yt, float zt);
-    friend Matrix getScaleMatrix(float xs, float ys, float zs);
+    static Matrix getScaleMatrix(float xs, float ys, float zs);
     friend Matrix getRotationMatrix(const Vector3& axis, float angle);
     friend Matrix getXRotationMatrix(float angle);
     friend Matrix getYRotationMatrix(float angle);

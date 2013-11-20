@@ -36,7 +36,7 @@
 		6CD1D86518342B3E00EE491E /* Parallelogram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1D86318342B3E00EE491E /* Parallelogram.cpp */; };
 		6CD8D523182C486E00D0B77E /* ONB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8D521182C486E00D0B77E /* ONB.cpp */; };
 		FB493F5D182C1C33006D988C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F5C182C1C33006D988C /* main.cpp */; };
-		FB493F5F182C1C33006D988C /*DukeRayTracer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB493F5E182C1C33006D988C /*DukeRayTracer.1 */; };
+		FB493F5F182C1C33006D988C /* DukeRayTracer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB493F5E182C1C33006D988C /* DukeRayTracer.1 */; };
 		FB493F68182C1C4D006D988C /* Color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F66182C1C4D006D988C /* Color.cpp */; };
 		FB493F6C182C1C7D006D988C /* Image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6A182C1C7D006D988C /* Image.cpp */; };
 		FB493F70182C1CA4006D988C /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F6E182C1CA4006D988C /* Vector3.cpp */; };
@@ -52,7 +52,7 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				FB493F5F182C1C33006D988C /*DukeRayTracer.1 in CopyFiles */,
+				FB493F5F182C1C33006D988C /* DukeRayTracer.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -111,13 +111,14 @@
 		6C9D5C26182C66C4003690A8 /* Sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample.h; sourceTree = "<group>"; };
 		6C9D5C28182C77A5003690A8 /* DSphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DSphere.cpp; sourceTree = "<group>"; };
 		6C9D5C29182C77A5003690A8 /* DSphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSphere.h; sourceTree = "<group>"; };
+		6CC33B5E183C58F800E853C7 /* world_map.ppm */ = {isa = PBXFileReference; lastKnownFileType = file; path = world_map.ppm; sourceTree = "<group>"; };
 		6CD1D86318342B3E00EE491E /* Parallelogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parallelogram.cpp; sourceTree = "<group>"; };
 		6CD1D86418342B3E00EE491E /* Parallelogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parallelogram.h; sourceTree = "<group>"; };
 		6CD8D521182C486E00D0B77E /* ONB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ONB.cpp; sourceTree = "<group>"; };
 		6CD8D522182C486E00D0B77E /* ONB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONB.h; sourceTree = "<group>"; };
 		FB493F59182C1C33006D988C /* DukeRayTracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DukeRayTracer; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB493F5C182C1C33006D988C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		FB493F5E182C1C33006D988C /*DukeRayTracer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path =DukeRayTracer.1; sourceTree = "<group>"; };
+		FB493F5E182C1C33006D988C /* DukeRayTracer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DukeRayTracer.1; sourceTree = "<group>"; };
 		FB493F66182C1C4D006D988C /* Color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Color.cpp; sourceTree = "<group>"; };
 		FB493F67182C1C4D006D988C /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		FB493F6A182C1C7D006D988C /* Image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Image.cpp; sourceTree = "<group>"; };
@@ -446,6 +447,14 @@
 			name = Sample;
 			sourceTree = "<group>";
 		};
+		6CC33B5D183C58F200E853C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CC33B5E183C58F800E853C7 /* world_map.ppm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		6CD1D86218342B2700EE491E /* Parallelogram */ = {
 			isa = PBXGroup;
 			children = (
@@ -467,7 +476,8 @@
 		FB493F50182C1C33006D988C = {
 			isa = PBXGroup;
 			children = (
-				FB493F5B182C1C33006D988C /*DukeRayTracer */,
+				6CC33B5D183C58F200E853C7 /* Resources */,
+				FB493F5B182C1C33006D988C /* DukeRayTracer */,
 				FB493F5A182C1C33006D988C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -480,7 +490,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB493F5B182C1C33006D988C /*DukeRayTracer */ = {
+		FB493F5B182C1C33006D988C /* DukeRayTracer */ = {
 			isa = PBXGroup;
 			children = (
 				6C12C2F21833173B0057FE7E /* Materials */,
@@ -496,9 +506,9 @@
 				FB493F69182C1C6F006D988C /* Image */,
 				FB493F65182C1C41006D988C /* Color */,
 				FB493F5C182C1C33006D988C /* main.cpp */,
-				FB493F5E182C1C33006D988C /*DukeRayTracer.1 */,
+				FB493F5E182C1C33006D988C /* DukeRayTracer.1 */,
 			);
-			path =DukeRayTracer;
+			path = DukeRayTracer;
 			sourceTree = "<group>";
 		};
 		FB493F65182C1C41006D988C /* Color */ = {
@@ -564,7 +574,7 @@
 			dependencies = (
 			);
 			name = DukeRayTracer;
-			productName =DukeRayTracer;
+			productName = DukeRayTracer;
 			productReference = FB493F59182C1C33006D988C /* DukeRayTracer */;
 			productType = "com.apple.product-type.tool";
 		};

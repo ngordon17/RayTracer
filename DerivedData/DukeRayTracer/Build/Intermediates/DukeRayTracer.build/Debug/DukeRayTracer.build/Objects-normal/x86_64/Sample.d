@@ -1,3 +1,4 @@
-dependencies: /Users/yankeenjg/Desktop/RayTracer/RayTracer/Sample.cpp \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Sample.h \
-  /Users/yankeenjg/Desktop/RayTracer/RayTracer/Vector2.h
+dependencies: \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Sample.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Sample.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h
