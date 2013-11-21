@@ -30,7 +30,6 @@
 
 int main(int argc, const char * argv[])
 {
-
     IntersectRecord record;
     bool is_a_hit;
     float tmax; //max valid t parameter
@@ -51,9 +50,9 @@ int main(int argc, const char * argv[])
     shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
     */
     
-    /* //texture map sphere with world map i.e. make a globe
-    shapes.push_back(new UVSphere(Vector3(0, 0, -500), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
-    */
+    //texture map sphere with world map i.e. make a globe
+    //shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/dalin/Desktop/DukeRayTracer/world_map.ppm")));
+
     
     
     /* //create sphere with triangle
@@ -64,11 +63,12 @@ int main(int argc, const char * argv[])
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(2)));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(3), new MarbleTexture(10)));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(1), new MarbleTexture(10)));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new SimpleTexture(Color(.2, .2, .8))));
     
     float res = 512;
     Image im(res, res);
-    Camera cam(Vector3(0, 0, 1), Vector3(0, 0, -1), Vector3(0, 1, 0), 0.0, -1, 1, -1, 1, 1);
+    Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
         
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
