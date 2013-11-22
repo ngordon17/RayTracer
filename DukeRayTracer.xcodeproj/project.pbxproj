@@ -20,8 +20,6 @@
 		6C3CD28C183205E800FB7688 /* BBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28A183205E800FB7688 /* BBox.cpp */; };
 		6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28E1832093300FB7688 /* QSplit.cpp */; };
 		6C3CD294183209FA00FB7688 /* BVH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD292183209FA00FB7688 /* BVH.cpp */; };
-		6C647755183FAE4000528A6D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C647754183FAE4000528A6D /* OpenGL.framework */; };
-		6C647757183FAE4400528A6D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C647756183FAE4400528A6D /* GLUT.framework */; };
 		6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */; };
 		6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C01830A50200945A37 /* Texture.cpp */; };
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
@@ -142,8 +140,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C647757183FAE4400528A6D /* GLUT.framework in Frameworks */,
-				6C647755183FAE4000528A6D /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
