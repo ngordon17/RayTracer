@@ -23,6 +23,7 @@ public:
     //incident unit vector, texture point, texture coordinate, random seed
     virtual bool diffuseDirection(const ONB&, const Vector3&, const Vector3&, const Vector2&, Vector2&, Color&, Vector3&);
     Texture* getTexture() {return tex;}
+    bool isDiffuse() {return true;}
     
 private:
     Texture* tex;
