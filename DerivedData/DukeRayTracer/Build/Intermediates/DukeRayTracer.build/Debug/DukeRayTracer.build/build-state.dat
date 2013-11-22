@@ -385,8 +385,8 @@ t1385137029
 s123024
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
-t1385137029
-s205456
+t1385137340
+s205440
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/BBox.cpp
 c00000000528BE9E9000000000000009B
@@ -840,7 +840,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies06d7283cbc3fb841^a184393cbc3fb841^---0#1#1#--18"Check dependencies36"F700D98B-0630-43FE-8BCF-A27CF31A7AAE-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies236b2566bc3fb841^cec72566bc3fb841^---0#1#1#--18"Check dependencies36"20D44242-B1BB-4422-AB86-6B3CB5967EEF-
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s406829462.399889
