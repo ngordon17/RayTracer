@@ -28,6 +28,37 @@
 #include "DiffuseMaterial.h"
 #include "Instance.h"
 
+
+vector<Shape*> makeScene() {
+    vector<Shape*> shapes;
+    
+    //How to implement materials??
+    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new MarbleTexture(2))));
+    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new SimpleTexture(Color(0.5, 0.4, 0.5)))));
+    
+    /* //create an ellipsoid using instance with sphere and scale matrix
+     shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
+     */
+    
+    //texture map sphere with world map i.e. make a globe
+    shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
+    
+    
+    /* //create sphere with triangle
+     shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
+     shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800), Vector3(0.0f, 100.0f, -1000), Vector3(450.0f, 20.0f, -1000), Color(.8, .2, .2)));
+     */
+    
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(2)));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(1), new MarbleTexture(10)));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new SimpleTexture(Color(.2, .2, .8))));
+    return shapes;
+    
+}
+
+
 int main(int argc, const char * argv[])
 {
     IntersectRecord record;
@@ -35,30 +66,8 @@ int main(int argc, const char * argv[])
     float tmax; //max valid t parameter
     Vector3 dir(0, 0, -1); //use -z direction for the viewing rays to use a right handed coordinate system
     
-    vector<Shape*> shapes;
     
-     //How to implement materials??
-     //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new MarbleTexture(2))));
-    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new SimpleTexture(Color(0.5, 0.4, 0.5)))));
-    
-    /* //create an ellipsoid using instance with sphere and scale matrix
-    shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
-    */
-    
-    //texture map sphere with world map i.e. make a globe
-    //shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
-    
-    
-    /* //create sphere with triangle
-    shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
-    shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800), Vector3(0.0f, 100.0f, -1000), Vector3(450.0f, 20.0f, -1000), Color(.8, .2, .2)));
-    */
-    
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(2)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(1), new MarbleTexture(10)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new SimpleTexture(Color(.2, .2, .8))));
+    vector<Shape*> shapes = makeScene();
     
     float res = 512;
     Image im(res, res);

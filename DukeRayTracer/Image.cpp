@@ -154,6 +154,9 @@ Color Image::getPixel(int i, int j) {
     return raster[i][j];
 }
 
+Color** Image::getRaster() {
+    return raster;
+}
 
 
 
