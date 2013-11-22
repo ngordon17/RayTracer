@@ -24,6 +24,7 @@ public:
     //incident unit vector, texture point, texture coordinate, random seed
     bool transmissionDirection(const ONB& uvw, const Vector3& in_dir, const Vector3& texp, const Vector2& uv, const Vector2& rseed, Color& _extinction, float& fresnel_scale, Vector3& transmission);
     Vector3 reflect(const Vector3& in_dir, const Vector3& normal);
+    Texture* getTexture() {return NULL;}
 
 private:
     float R0;

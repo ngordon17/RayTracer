@@ -20,7 +20,8 @@ public:
     virtual Color ambientResponse(const ONB&, const Vector3&, const Vector3&, const Vector2&);
     //incident unit vector, texture point, texture coordinate, random seed
     virtual bool specularDirection(const ONB&, const Vector3&, const Vector3&, const Vector2&, Vector2&, Color&, Vector3&);
-
+    Texture* getTexture() {return tex;}
+    
 private:
     Texture* tex;
     Texture* phong_exp;

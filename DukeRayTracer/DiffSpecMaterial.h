@@ -24,7 +24,8 @@ public:
     virtual bool explicitBRDF(const ONB&, const Vector3&, const Vector3&, const Vector3&, const Vector2&, Color&);
     //incident vector, intersection to shade, random seed, color to attenuate by, count emitted light?, brdf scale, scattered direction
     virtual bool scatterDirection(const Vector3&, const IntersectRecord&, Vector2&, Color&, bool&, float&, Vector3&);
-
+    Texture* getTexture() {return NULL;}
+    
 private:
     float R0;
     Material* diff_mat;

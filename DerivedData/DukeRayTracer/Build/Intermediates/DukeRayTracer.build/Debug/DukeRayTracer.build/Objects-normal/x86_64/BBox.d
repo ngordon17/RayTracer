@@ -1,5 +1,4 @@
-dependencies: \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.cpp \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h
+dependencies: /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/BBox.cpp \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/BBox.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Ray.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vector3.h

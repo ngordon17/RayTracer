@@ -1,28 +1,27 @@
-dependencies: \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/main.cpp \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Image.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Shape.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Material.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Triangle.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Sphere.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Camera.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/MarbleTexture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SolidNoise.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/UVSphere.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/NoiseTexture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ImageTexture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/TriangleMesh.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Mesh.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vertex.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Parallelogram.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SimpleTexture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/DiffuseMaterial.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Instance.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Matrix.h
+dependencies: /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/main.cpp \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vector3.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Color.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Image.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Shape.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Ray.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Texture.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vector2.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/ONB.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/BBox.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Material.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Triangle.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Sphere.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Camera.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/MarbleTexture.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/SolidNoise.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/UVSphere.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/NoiseTexture.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/ImageTexture.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/TriangleMesh.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Mesh.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vertex.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Parallelogram.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/SimpleTexture.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/DiffuseMaterial.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Instance.h \
+  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Matrix.h

@@ -14,6 +14,7 @@
 #include "Color.h"
 #include "ONB.h"
 #include "Ray.h"
+#include "Texture.h"
 
 class Material {
 public:
@@ -36,6 +37,7 @@ public:
     virtual int causticPhotons() {return 0;}
     virtual int globalPhotons() {return 0;}
     virtual Color photonColor() {return Color(0.0f, 0.0f, 0.0f);}
+    virtual Texture* getTexture() = 0;
 };
 
 #endif /* defined(__RayTracer__Material__) */

@@ -41,10 +41,9 @@ int main(int argc, const char * argv[])
     
    
     
-    /*
-     How to implement materials??
-     shapes.push_back(new Parallelogram(Vector3(100, 0, 0), Vector3(50, 50, 0), Vector3(50, 50, 0), new DiffuseMaterial(new SimpleTexture(Color(1, 0, 0)))));
-    */
+    
+     //How to implement materials??
+     shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new MarbleTexture(2))));
     
     /* //create an ellipsoid using instance with sphere and scale matrix
     shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
@@ -87,7 +86,7 @@ int main(int argc, const char * argv[])
             
             //if intersects with a shape, draw the shape's color
             if (is_a_hit) {
-                im.set(i, j, record.tex -> value(record.uv, record.intersection));
+                im.set(i, j, record.material->getTexture()-> value(record.uv, record.intersection));
             }
             else {
                 im.set(i, j, Color(.2, .2, .2));
