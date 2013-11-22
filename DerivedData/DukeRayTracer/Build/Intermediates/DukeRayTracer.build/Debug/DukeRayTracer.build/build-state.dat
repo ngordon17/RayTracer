@@ -385,8 +385,8 @@ t1385137029
 s123024
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
-t1385137012
-s198464
+t1385137029
+s205456
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/BBox.cpp
 c00000000528BE9E9000000000000009B
@@ -840,7 +840,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc3292305bb3fb841^2f852305bb3fb841^---0#1#1#--18"Check dependencies36"8861B2B3-0585-4184-AE35-804B4119C26C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies06d7283cbc3fb841^a184393cbc3fb841^---0#1#1#--18"Check dependencies36"F700D98B-0630-43FE-8BCF-A27CF31A7AAE-
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s406829462.399889
@@ -1613,8 +1613,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile
 bC61B07CB-0C0A-4474-9EA9-FB4A7791CEA4
 
 CLd /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64
-s406829829.625534
-e406829829.647170
+s406830140.231942
+e406830140.253804
 r1
 xLd
 x/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
@@ -1656,13 +1656,9 @@ d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Inte
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DSphere.o
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/GLUT
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -1693,6 +1689,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer77"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64dc2ea005bb3fb841^64ada505bb3fb841^---0#0#1#--1188"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -filelist /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -framework GLUT -framework OpenGL -Xlinker -dependency_info -Xlinker /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer_dependency_info.dat -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer36"96594022-CEF8-4EEE-B3C3-6376D02FAC11-
-bC61B07CB-0C0A-4474-9EA9-FB4A7791CEA4
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer77"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64e36b3b3cbc3fb841^e4f9403cbc3fb841^---0#0#1#--1154"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -filelist /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer_dependency_info.dat -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer36"372D1D4F-1E74-4E0D-AA9A-A93D79811FF1-
+b4BD9938F-1384-4C85-B623-B38B56B4E396
 

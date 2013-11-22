@@ -85,8 +85,6 @@
 		6C3CD28F1832093300FB7688 /* QSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSplit.h; sourceTree = "<group>"; };
 		6C3CD292183209FA00FB7688 /* BVH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BVH.cpp; sourceTree = "<group>"; };
 		6C3CD293183209FA00FB7688 /* BVH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVH.h; sourceTree = "<group>"; };
-		6C647754183FAE4000528A6D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		6C647756183FAE4400528A6D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolidNoise.cpp; sourceTree = "<group>"; };
 		6C8FC8BD18309F7300945A37 /* SolidNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidNoise.h; sourceTree = "<group>"; };
 		6C8FC8C01830A50200945A37 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
@@ -478,8 +476,6 @@
 		FB493F50182C1C33006D988C = {
 			isa = PBXGroup;
 			children = (
-				6C647756183FAE4400528A6D /* GLUT.framework */,
-				6C647754183FAE4000528A6D /* OpenGL.framework */,
 				6CC33B5D183C58F200E853C7 /* Resources */,
 				FB493F5B182C1C33006D988C /* DukeRayTracer */,
 				FB493F5A182C1C33006D988C /* Products */,
