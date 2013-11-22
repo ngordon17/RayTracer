@@ -46,8 +46,7 @@ int main(int argc, const char * argv[])
     */
     
     //texture map sphere with world map i.e. make a globe
-    shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/dalin/Desktop/DukeRayTracer/world_map.ppm")));
-
+    //shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
     
     
     /* //create sphere with triangle

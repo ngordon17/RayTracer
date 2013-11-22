@@ -1,4 +1,5 @@
-dependencies: /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vertex.cpp \
-  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vertex.h \
-  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vector2.h \
-  /Users/dalin/Desktop/DukeRayTracer/DukeRayTracer/Vector3.h
+dependencies: \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vertex.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vertex.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h
