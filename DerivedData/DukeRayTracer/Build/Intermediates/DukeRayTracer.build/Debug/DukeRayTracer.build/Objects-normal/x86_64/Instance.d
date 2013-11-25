@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Instance.cpp \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Instance.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Shape.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Material.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Matrix.h
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.cpp \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Shape.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Material.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.h

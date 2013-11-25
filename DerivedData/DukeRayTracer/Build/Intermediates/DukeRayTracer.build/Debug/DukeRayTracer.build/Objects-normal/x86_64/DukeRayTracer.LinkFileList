@@ -1,35 +1,35 @@
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffuseMaterial.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Camera.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Image.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/MarbleTexture.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/QSplit.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector2.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Matrix.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Material.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Instance.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ImageTexture.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/List.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Shape.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Ray.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector3.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DielectricMaterial.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Triangle.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sample.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SimpleTexture.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffSpecMaterial.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sphere.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Color.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Texture.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Mesh.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SolidNoise.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/NoiseTexture.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/TriangleMesh.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BVH.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/UVSphere.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DSphere.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o
-/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffuseMaterial.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Camera.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Image.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/MarbleTexture.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/QSplit.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector2.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Matrix.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Material.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Instance.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ImageTexture.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/List.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Shape.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Ray.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector3.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DielectricMaterial.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Triangle.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sample.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SimpleTexture.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffSpecMaterial.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sphere.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Color.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Texture.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Mesh.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SolidNoise.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/NoiseTexture.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/TriangleMesh.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BVH.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/UVSphere.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DSphere.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o
+/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o

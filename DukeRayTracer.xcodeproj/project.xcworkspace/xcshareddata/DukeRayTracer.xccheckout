@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>654F1FA5-61FA-46DC-AE1E-CB9E157539C4</string>
+	<string>A02DFA60-D6B8-4908-BC33-A41F49BBCAF5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>DukeRayTracer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>746044B8-FDCD-48A3-BDC8-48DEAD0F3B0D</key>
-		<string>https://github.com/ngordon17/DukeRayTracer.git</string>
+		<key>F4018337-3383-480B-871A-06EAB255C3E8</key>
+		<string>https://github.com/ngordon17/CPS344RayTracer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DukeRayTracer.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>746044B8-FDCD-48A3-BDC8-48DEAD0F3B0D</key>
+		<key>F4018337-3383-480B-871A-06EAB255C3E8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/ngordon17/DukeRayTracer.git</string>
+	<string>https://github.com/ngordon17/CPS344RayTracer.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>746044B8-FDCD-48A3-BDC8-48DEAD0F3B0D</string>
+	<string>F4018337-3383-480B-871A-06EAB255C3E8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>746044B8-FDCD-48A3-BDC8-48DEAD0F3B0D</string>
+			<string>F4018337-3383-480B-871A-06EAB255C3E8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>DukeRayTracer</string>
+			<string>CPS344RayTracer</string>
 		</dict>
 	</array>
 </dict>
