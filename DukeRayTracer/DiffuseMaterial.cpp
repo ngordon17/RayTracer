@@ -27,7 +27,7 @@ bool DiffuseMaterial::diffuseDirection(const ONB& uvw, const Vector3&, const Vec
     float z = sqrt(1 - x*x - y*y);
     color = tex -> value(uv, p);
     v_out = x*uvw.u() + y*uvw.v() + z*uvw.w();
-    //seed.scramble(); //wtf is this?
+    //seed.scramble(); //what is this?
     return true;
 }
 

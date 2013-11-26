@@ -72,6 +72,7 @@ int main(int argc, const char * argv[])
     float res = 512;
     Image im(res, res);
     Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
+    
         
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
@@ -96,6 +97,7 @@ int main(int argc, const char * argv[])
                     im.set(i, j, record.tex-> value(record.uv, record.intersection));
                 else if (record.material->isDiffuse()) {
                     record.material->diffuseDirection(record.uvw, record.intersection, record.intersection, record.uv, record.uv, c, v);
+                    
                     im.set(i, j, c);
                 }
             }
