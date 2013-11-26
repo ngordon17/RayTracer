@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Sample.cpp \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Sample.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sample.cpp \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sample.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h

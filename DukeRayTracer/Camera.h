@@ -20,6 +20,7 @@ public:
     Camera(Vector3 c, Vector3 gaze, Vector3 vup, float aperture, float left, float right,
            float bottom, float top, float distance);
     Ray getRay(float i, float j, float nx, float ny, float xi1, float xi2);
+    Vector3 getE() { return e; }
     
 private:
     Vector3 e, corner, across, up;

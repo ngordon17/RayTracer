@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ImageTexture.cpp \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ImageTexture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Image.h
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ImageTexture.cpp \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ImageTexture.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Image.h

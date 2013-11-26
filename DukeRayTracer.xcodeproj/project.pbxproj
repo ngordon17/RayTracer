@@ -43,6 +43,7 @@
 		FB493F74182C2248006D988C /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FB493F72182C2248006D988C /* List.cpp */; };
 		FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCFBC8D182C47CA00517262 /* Vector2.cpp */; };
 		FBCFBC93182C77FA00517262 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBCFBC91182C77FA00517262 /* Camera.cpp */; };
+		FBD6FA9D18441A76003D3623 /* Lighting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FBD6FA9B18441A76003D3623 /* Lighting.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +132,8 @@
 		FBCFBC8E182C47CA00517262 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
 		FBCFBC91182C77FA00517262 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
 		FBCFBC92182C77FA00517262 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		FBD6FA9B18441A76003D3623 /* Lighting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lighting.cpp; sourceTree = "<group>"; };
+		FBD6FA9C18441A76003D3623 /* Lighting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lighting.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -493,6 +496,7 @@
 		FB493F5B182C1C33006D988C /* DukeRayTracer */ = {
 			isa = PBXGroup;
 			children = (
+				FBD6FA9A18441A55003D3623 /* Lighting */,
 				6C12C2F21833173B0057FE7E /* Materials */,
 				6C3CD27A1831A63700FB7688 /* Matrices */,
 				6C8FC8BA18309F5500945A37 /* Textures */,
@@ -558,6 +562,15 @@
 			name = Camera;
 			sourceTree = "<group>";
 		};
+		FBD6FA9A18441A55003D3623 /* Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				FBD6FA9B18441A76003D3623 /* Lighting.cpp */,
+				FBD6FA9C18441A76003D3623 /* Lighting.h */,
+			);
+			name = Lighting;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -616,6 +629,7 @@
 				6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */,
 				6C12C2FE18331EB30057FE7E /* PhongMetalMaterial.cpp in Sources */,
 				6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */,
+				FBD6FA9D18441A76003D3623 /* Lighting.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */,
 				FB493F5D182C1C33006D988C /* main.cpp in Sources */,

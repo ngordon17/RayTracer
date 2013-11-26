@@ -8,6 +8,7 @@
 
 #include <vector>
 #include <iostream>
+#include <math.h>
 #include "Vector3.h"
 #include "Color.h"
 #include "Image.h"
@@ -27,6 +28,7 @@
 #include "SimpleTexture.h"
 #include "DiffuseMaterial.h"
 #include "Instance.h"
+#include "Lighting.h"
 
 
 vector<Shape*> makeScene() {
@@ -43,7 +45,6 @@ vector<Shape*> makeScene() {
     //texture map sphere with world map i.e. make a globe
     shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
     
-    
     /* //create sphere with triangle
      shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
      shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800), Vector3(0.0f, 100.0f, -1000), Vector3(450.0f, 20.0f, -1000), Color(.8, .2, .2)));
@@ -58,6 +59,30 @@ vector<Shape*> makeScene() {
     
 }
 
+Color makeLightingColor(Vector3 light_source, Color texture_color, Camera cam, IntersectRecord record, float phong_exponent) {
+    Color ambient_color = Color(0.1, 0.1 ,0.1);
+    Color diffuse_color = Color(1.0, 1.0, 1.0);
+    Color specular_color = Color(1.0, 1.0, 1.0);
+    
+    Vector3 vertex_to_light_vector = light_source - record.intersection;
+    Vector3 normalized_vertex_to_light_vector = normalize(vertex_to_light_vector);
+    Vector3 vertex_to_eye_vector = cam.getE() - record.intersection;
+    Vector3 bisector = normalize(vertex_to_light_vector + vertex_to_eye_vector);
+    
+    float diffuse_term = dot(record.normal, normalized_vertex_to_light_vector);
+    if (diffuse_term < 0.0) diffuse_term = 0.0;
+    if (diffuse_term > 1.0) diffuse_term = 1.0;
+    
+    float specular_term = dot(record.normal, bisector);
+    if (specular_term < 0.0) specular_term = 0.0;
+    if (specular_term > 1.0) specular_term = 1.0;
+    
+    float phong_constant = pow(specular_term, phong_exponent);
+    Color lighting_color = ambient_color + (diffuse_color * diffuse_term) + (specular_color * phong_constant);
+    Color mix_color = (texture_color + lighting_color)/2.0;
+    
+    return mix_color;
+}
 
 int main(int argc, const char * argv[])
 {
@@ -72,8 +97,8 @@ int main(int argc, const char * argv[])
     float res = 512;
     Image im(res, res);
     Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
-    
-        
+
+    Lighting light = Lighting(Vector3(250, 0, -125), cam.getE());
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
         for (int j = 0; j < res; j++) {
@@ -90,16 +115,14 @@ int main(int argc, const char * argv[])
             }
             
             //if intersects with a shape, draw the shape's color
-            Color c = Color(0.5, 0.4, 0.6);
-            Vector3 v = Vector3();
             if (is_a_hit) {
-                if (record.material == NULL)
-                    im.set(i, j, record.tex-> value(record.uv, record.intersection));
-                else if (record.material->isDiffuse()) {
-                    record.material->diffuseDirection(record.uvw, record.intersection, record.intersection, record.uv, record.uv, c, v);
-                    
-                    im.set(i, j, c);
-                }
+                Color texture_color = record.tex-> value(record.uv, record.intersection);
+                
+                //color, record, camera, phong constant
+                
+                Color mix_color = light.makeLightingColor(texture_color, record, 80.0);
+                
+                im.set(i, j, mix_color);
             }
             else {
                 im.set(i, j, Color(.2, .2, .2));

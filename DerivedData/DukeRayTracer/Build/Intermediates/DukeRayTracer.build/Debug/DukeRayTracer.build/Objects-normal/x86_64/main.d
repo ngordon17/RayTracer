@@ -25,4 +25,5 @@ dependencies: \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SimpleTexture.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/DiffuseMaterial.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Instance.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Matrix.h
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Matrix.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Lighting.h
