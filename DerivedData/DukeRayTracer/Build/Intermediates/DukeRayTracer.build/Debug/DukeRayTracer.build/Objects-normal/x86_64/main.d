@@ -24,4 +24,5 @@ dependencies: /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp \
   /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SimpleTexture.h \
   /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffuseMaterial.h \
   /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.h
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.h \
+  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Lighting.h

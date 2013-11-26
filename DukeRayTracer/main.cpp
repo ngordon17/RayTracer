@@ -28,6 +28,7 @@
 #include "SimpleTexture.h"
 #include "DiffuseMaterial.h"
 #include "Instance.h"
+#include "Lighting.h"
 
 
 vector<Shape*> makeScene() {
@@ -59,6 +60,30 @@ vector<Shape*> makeScene() {
     
 }
 
+Color makeLightingColor(Vector3 light_source, Color texture_color, Camera cam, IntersectRecord record, float phong_exponent) {
+    Color ambient_color = Color(0.1, 0.1 ,0.1);
+    Color diffuse_color = Color(1.0, 1.0, 1.0);
+    Color specular_color = Color(1.0, 1.0, 1.0);
+    
+    Vector3 vertex_to_light_vector = light_source - record.intersection;
+    Vector3 normalized_vertex_to_light_vector = normalize(vertex_to_light_vector);
+    Vector3 vertex_to_eye_vector = cam.getE() - record.intersection;
+    Vector3 bisector = normalize(vertex_to_light_vector + vertex_to_eye_vector);
+    
+    float diffuse_term = dot(record.normal, normalized_vertex_to_light_vector);
+    if (diffuse_term < 0.0) diffuse_term = 0.0;
+    if (diffuse_term > 1.0) diffuse_term = 1.0;
+    
+    float specular_term = dot(record.normal, bisector);
+    if (specular_term < 0.0) specular_term = 0.0;
+    if (specular_term > 1.0) specular_term = 1.0;
+    
+    float phong_constant = pow(specular_term, phong_exponent);
+    Color lighting_color = ambient_color + (diffuse_color * diffuse_term) + (specular_color * phong_constant);
+    Color mix_color = (texture_color + lighting_color)/2.0;
+    
+    return mix_color;
+}
 
 int main(int argc, const char * argv[])
 {
@@ -73,7 +98,7 @@ int main(int argc, const char * argv[])
     float res = 512;
     Image im(res, res);
     Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
-    Vector3 light_source = Vector3(250, 0, -125);
+    Lighting light = Lighting(Vector3(250, 0, -125), cam.getE());
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
         for (int j = 0; j < res; j++) {
@@ -93,26 +118,9 @@ int main(int argc, const char * argv[])
             if (is_a_hit) {
                 Color texture_color = record.tex-> value(record.uv, record.intersection);
                 
-                Color ambient_color = Color(0.1, 0.1 ,0.1);
-                Color diffuse_color = Color(1.0, 1.0, 1.0);
-                Color specular_color = Color(1.0, 1.0, 1.0);
-                    
-                Vector3 vertex_to_light_vector = light_source - record.intersection;
-                Vector3 normalized_vertex_to_light_vector = normalize(vertex_to_light_vector);
-                Vector3 vertex_to_eye_vector = cam.getE() - record.intersection;
-                Vector3 bisector = normalize(vertex_to_light_vector + vertex_to_eye_vector);
-                    
-                float diffuse_term = dot(record.normal, normalized_vertex_to_light_vector);
-                if (diffuse_term < 0.0) diffuse_term = 0.0;
-                if (diffuse_term > 1.0) diffuse_term = 1.0;
-                    
-                float specular_term = dot(record.normal, bisector);
-                if (specular_term < 0.0) specular_term = 0.0;
-                if (specular_term > 1.0) specular_term = 1.0;
-                    
-                float phong_constant = pow(specular_term, 70.0);
-                Color lighting_color = ambient_color + (diffuse_color * diffuse_term) + (specular_color * phong_constant);
-                Color mix_color = (texture_color + lighting_color)/2.0;
+                //color, record, camera, phong constant
+                
+                Color mix_color = light.makeLightingColor(texture_color, record, 80.0);
                 
                 im.set(i, j, mix_color);
             }
