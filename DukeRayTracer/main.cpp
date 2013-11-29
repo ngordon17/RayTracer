@@ -35,15 +35,15 @@ vector<Shape*> makeScene() {
     vector<Shape*> shapes;
     
     //How to implement materials??
-    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new MarbleTexture(2))));
-    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new DiffuseMaterial(new SimpleTexture(Color(0.5, 0.4, 0.5)))));
+    //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new MarbleTexture(2)));
+    shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new SimpleTexture(Color(1, 0, 0))));
     
     /* //create an ellipsoid using instance with sphere and scale matrix
      shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
      */
     
     //texture map sphere with world map i.e. make a globe
-    shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
+    //shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/dalin/Desktop/CPS344RayTracer/world_map.ppm")));
     
     /* //create sphere with triangle
      shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
@@ -55,6 +55,7 @@ vector<Shape*> makeScene() {
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(1), new MarbleTexture(10)));
     //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new SimpleTexture(Color(.2, .2, .8))));
+    
     return shapes;
     
 }
@@ -98,7 +99,7 @@ int main(int argc, const char * argv[])
     Image im(res, res);
     Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
 
-    Lighting light = Lighting(Vector3(250, 0, -125), cam.getE());
+    Lighting light = Lighting(Vector3(4, 0, 2.5), cam.getE());
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
         for (int j = 0; j < res; j++) {
@@ -120,7 +121,7 @@ int main(int argc, const char * argv[])
                 
                 //color, record, camera, phong constant
                 
-                Color mix_color = light.makeLightingColor(texture_color, record, 80.0);
+                Color mix_color = light.makeLightingColor(texture_color, record, 50.0);
                 
                 im.set(i, j, mix_color);
             }
