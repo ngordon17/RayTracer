@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.cpp \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SolidNoise.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SolidNoise.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h

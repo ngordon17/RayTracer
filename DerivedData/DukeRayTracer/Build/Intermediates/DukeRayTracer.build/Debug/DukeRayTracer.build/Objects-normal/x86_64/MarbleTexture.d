@@ -1,8 +1,8 @@
 dependencies: \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/MarbleTexture.cpp \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/MarbleTexture.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.h
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/MarbleTexture.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/MarbleTexture.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector2.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Color.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SolidNoise.h

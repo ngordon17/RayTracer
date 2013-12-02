@@ -36,7 +36,7 @@ vector<Shape*> makeScene() {
     
     //How to implement materials??
     //shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new MarbleTexture(2)));
-    shapes.push_back(new Parallelogram(Vector3(-1, 0, 0), Vector3(2, 2, 0), Vector3(0, 2, 0), new SimpleTexture(Color(1, 0, 0))));
+    shapes.push_back(new Parallelogram(Vector3(0, -2, 0), Vector3(0, 0, -20), Vector3(5, 0, 0), new SimpleTexture(Color(1, 0, 0))));
     
     /* //create an ellipsoid using instance with sphere and scale matrix
      shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));

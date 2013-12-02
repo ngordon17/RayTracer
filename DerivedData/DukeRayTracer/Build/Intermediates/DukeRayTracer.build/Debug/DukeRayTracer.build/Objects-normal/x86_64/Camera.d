@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Camera.cpp \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Camera.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h \
-  /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.h
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Camera.cpp \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Camera.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vector3.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.h
