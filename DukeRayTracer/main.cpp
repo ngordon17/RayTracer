@@ -38,7 +38,7 @@ vector<Shape*> makeScene() {
     //base = vertex, u = offset in one direction, v = offset in other direction, 4th vertex defined because
     //it is a parallelogram
     //shapes.push_back(new Parallelogram(Vector3(-2, -2, 0), Vector3(0, 0, -1), Vector3(2, 0, 0), new MarbleTexture(2)));
-    shapes.push_back(new Parallelogram(Vector3(-20, -5, 0), Vector3(0, 0, -20), Vector3(40, 0, 0), new SimpleTexture(Color(1, 0, 0))));
+    shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleTexture(Color(1, 0, 0))));
     //shapes.push_back(new Parallelogram(Vector3(0.5, 0, 0), Vector3(-0.5, 1, 1), Vector3(0.5, 1, 1), new SimpleTexture(Color(1, 0, 0))));
     
     /* //create an ellipsoid using instance with sphere and scale matrix
@@ -102,7 +102,7 @@ int main(int argc, const char * argv[])
     Image im(res, res);
     Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
 
-    Lighting light = Lighting(Vector3(0, 10, 1), cam.getE());
+    Lighting light = Lighting(Vector3(0, 0 , -5), cam.getE());
     //for each pixel on a 500x500 pixel image
     for (int i = 0; i < res; i++) {
         for (int j = 0; j < res; j++) {
@@ -124,6 +124,7 @@ int main(int argc, const char * argv[])
                 
                 //color, record, camera, phong constant
                 
+                //Color mix_color = texture_color;
                 Color mix_color = light.makeLightingColor(texture_color, record, 50.0);
                 
                 im.set(i, j, mix_color);

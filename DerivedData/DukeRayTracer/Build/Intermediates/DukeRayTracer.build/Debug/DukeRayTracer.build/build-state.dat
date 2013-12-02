@@ -220,517 +220,6 @@ c00000000528AAC060000000000001750
 t1384819718
 s5968
 
-<<<<<<< HEAD
-=======
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
-t1385761072
-s1876
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BVH.o
-t1385761074
-s32692
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Camera.o
-t1385761072
-s18516
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Color.o
-t1385761073
-s77824
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DSphere.o
-t1385761074
-s37572
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DielectricMaterial.o
-t1385761073
-s26736
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffSpecMaterial.o
-t1385761073
-s21116
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffuseMaterial.o
-t1385761072
-s21496
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList
-c000000005299087D00000000000016D0
-t1385760893
-s5840
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Image.o
-t1385761072
-s168504
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ImageTexture.o
-t1385761072
-s63712
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Instance.o
-t1385761072
-s25656
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Lighting.o
-t1385761072
-s10220
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/List.o
-t1385761072
-s1876
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/MarbleTexture.o
-t1385761072
-s10320
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Material.o
-t1385761072
-s1884
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Matrix.o
-t1385761072
-s89040
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Mesh.o
-t1385761073
-s1876
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/NoiseTexture.o
-t1385761073
-s9332
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o
-t1385761073
-s14576
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
-t1385955855
-s31448
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o
-t1385761072
-s23376
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/QSplit.o
-t1385761072
-s1880
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Ray.o
-t1385761073
-s1872
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sample.o
-t1385761073
-s16660
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Shape.o
-t1385761073
-s1876
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SimpleTexture.o
-t1385761073
-s1892
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SolidNoise.o
-t1385761073
-s18192
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sphere.o
-t1385761073
-s33832
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Texture.o
-t1385761073
-s1880
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Triangle.o
-t1385761073
-s32952
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/TriangleMesh.o
-t1385761074
-s32240
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/UVSphere.o
-t1385761074
-s32520
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector2.o
-t1385761072
-s17372
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector3.o
-t1385761073
-s19836
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o
-t1385761074
-s1880
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
-t1385957658
-s134000
-
-N/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
-t1385957658
-s211072
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp
-c0000000052990855000000000000009B
-t1385760853
-s155
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.h
-c000000005299085500000000000008AD
-t1385760853
-s2221
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BVH.cpp
-c00000000529908550000000000000A8B
-t1385760853
-s2699
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BVH.h
-c000000005299085500000000000005C8
-t1385760853
-s1480
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Camera.cpp
-c00000000529908550000000000000789
-t1385760853
-s1929
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Camera.h
-c000000005299085500000000000002E6
-t1385760853
-s742
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.cpp
-c0000000052990855000000000000084E
-t1385760853
-s2126
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h
-c00000000529908550000000000000789
-t1385760853
-s1929
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DSphere.cpp
-c00000000529908550000000000001012
-t1385760853
-s4114
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DSphere.h
-c00000000529908550000000000000439
-t1385760853
-s1081
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DielectricMaterial.cpp
-c00000000529908550000000000000C21
-t1385760853
-s3105
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DielectricMaterial.h
-c000000005299085500000000000004F9
-t1385760853
-s1273
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffSpecMaterial.cpp
-c000000005299085500000000000006C2
-t1385760853
-s1730
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffSpecMaterial.h
-c00000000529908550000000000000516
-t1385760853
-s1302
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffuseMaterial.cpp
-c00000000529908550000000000000421
-t1385760853
-s1057
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffuseMaterial.h
-c00000000529908550000000000000440
-t1385760853
-s1088
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Image.cpp
-c00000000529908550000000000000F98
-t1385760853
-s3992
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Image.h
-c00000000529908550000000000000383
-t1385760853
-s899
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ImageTexture.cpp
-c00000000529908550000000000000388
-t1385760853
-s904
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ImageTexture.h
-c0000000052990855000000000000021B
-t1385760853
-s539
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.cpp
-c00000000529908550000000000000704
-t1385760853
-s1796
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.h
-c0000000052990855000000000000041D
-t1385760853
-s1053
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Lighting.cpp
-c00000000529908550000000000000542
-t1385760853
-s1346
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Lighting.h
-c00000000529908550000000000000273
-t1385760853
-s627
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/List.cpp
-c00000000529908550000000000000538
-t1385760853
-s1336
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/List.h
-c00000000529908550000000000000344
-t1385760853
-s836
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/MarbleTexture.cpp
-c000000005299085500000000000001CB
-t1385760853
-s459
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/MarbleTexture.h
-c00000000529908550000000000000472
-t1385760853
-s1138
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Material.cpp
-c000000005299085500000000000000A4
-t1385760853
-s164
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Material.h
-c000000005299085500000000000008A5
-t1385760853
-s2213
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.cpp
-c00000000529908550000000000002FF5
-t1385760853
-s12277
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.h
-c0000000052990855000000000000085D
-t1385760853
-s2141
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Mesh.cpp
-c0000000052990855000000000000009C
-t1385760853
-s156
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Mesh.h
-c0000000052990855000000000000020C
-t1385760853
-s524
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/NoiseTexture.cpp
-c00000000529908550000000000000153
-t1385760853
-s339
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/NoiseTexture.h
-c00000000529908550000000000000326
-t1385760853
-s806
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.cpp
-c000000005299085500000000000007C6
-t1385760853
-s1990
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.h
-c000000005299085500000000000004FD
-t1385760853
-s1277
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp
-c00000000529C017F00000000000013CA
-t1385955711
-s5066
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.h
-c0000000052990CA900000000000005D2
-t1385761961
-s1490
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/PhongMetalMaterial.cpp
-c00000000529908550000000000000432
-t1385760853
-s1074
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/PhongMetalMaterial.h
-c000000005299085500000000000003B6
-t1385760853
-s950
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/QSplit.cpp
-c000000005299085500000000000000A0
-t1385760853
-s160
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/QSplit.h
-c00000000529908550000000000000396
-t1385760853
-s918
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.cpp
-c00000000529908550000000000000099
-t1385760853
-s153
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h
-c000000005299085500000000000004AD
-t1385760853
-s1197
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sample.cpp
-c00000000529908550000000000001149
-t1385760853
-s4425
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sample.h
-c000000005299085500000000000005CB
-t1385760853
-s1483
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Shape.cpp
-c0000000052990855000000000000009D
-t1385760853
-s157
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Shape.h
-c00000000529908550000000000000778
-t1385760853
-s1912
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SimpleTexture.cpp
-c000000005299085500000000000000AE
-t1385760853
-s174
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SimpleTexture.h
-c00000000529908550000000000000220
-t1385760853
-s544
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.cpp
-c00000000529908550000000000000CCA
-t1385760853
-s3274
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.h
-c000000005299085500000000000002F9
-t1385760853
-s761
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sphere.cpp
-c00000000529908550000000000000E61
-t1385760853
-s3681
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sphere.h
-c000000005299085500000000000003BB
-t1385760853
-s955
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.cpp
-c000000005299085500000000000000A2
-t1385760853
-s162
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h
-c000000005299085500000000000001E5
-t1385760853
-s485
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Triangle.cpp
-c00000000529908550000000000000F81
-t1385760853
-s3969
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Triangle.h
-c000000005299085500000000000003A6
-t1385760853
-s934
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/TriangleMesh.cpp
-c00000000529908550000000000001009
-t1385760853
-s4105
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/TriangleMesh.h
-c0000000052990855000000000000040E
-t1385760853
-s1038
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/UVSphere.cpp
-c00000000529908550000000000000ED5
-t1385760853
-s3797
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/UVSphere.h
-c00000000529908550000000000000390
-t1385760853
-s912
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.cpp
-c00000000529908550000000000000AC2
-t1385760853
-s2754
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h
-c0000000052990855000000000000079A
-t1385760853
-s1946
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.cpp
-c00000000529908550000000000000F79
-t1385760853
-s3961
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h
-c00000000529908550000000000000A0B
-t1385760853
-s2571
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vertex.cpp
-c000000005299085500000000000000A0
-t1385760853
-s160
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vertex.h
-c000000005299085500000000000001F8
-t1385760853
-s504
-
-N/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp
-c00000000529C08FF00000000000014CB
-t1385957631
-s5323
-
->>>>>>> cbb92d0d3e26b2787e72e006383cb7e51adcf00b
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
 t1385961973
 s1892
@@ -813,7 +302,7 @@ t1385961976
 s14592
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
-t1385961978
+t1385964501
 s31464
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o
@@ -877,11 +366,11 @@ t1385961978
 s1896
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
-t1385962914
+t1385964676
 s134024
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
-t1385962633
+t1385964637
 s211360
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/BBox.cpp
@@ -1075,8 +564,8 @@ t1384901097
 s1277
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Parallelogram.cpp
-c00000000529C197000000000000013CA
-t1385961840
+c00000000529C23BA00000000000013CA
+t1385964474
 s5066
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Parallelogram.h
@@ -1235,9 +724,9 @@ t1384901097
 s504
 
 N/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp
-c00000000529C1DA100000000000013AF
-t1385962913
-s5039
+c00000000529C248300000000000014FA
+t1385964675
+s5370
 
 CBuild AST from /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.cpp
 r0
@@ -1349,29 +838,7 @@ r0
 
 CCheck dependencies
 r0
-<<<<<<< HEAD
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3484ff21554cb841^02d9ff21554cb841^---0#1#1#--18"Check dependencies36"A46A923E-7741-478A-B3E3-FC96FECA5A7C-
-=======
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf7af0859554cb841^12141759554cb841^---0#1#1#--18"Check dependencies36"D9D6CD10-5AC3-4F76-BAB6-E68C5E279A91-
-
-CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407453871.443365
-e407453872.115508
-r1
-xCompileC
-xDerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
-x/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp214"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdfc371af4049b841^6d1c29b04049b841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp0000000000000000^3250"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dalin/Desktop/CPS344RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.d --serialize-diagnostics /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.dia -c /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.cpp -o /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o36"79A53C29-E9D9-4CA2-B1F6-4F312C7F5C01-
-bE1A9271B-D96E-4557-BB1B-0630A3B66669
->>>>>>> cbb92d0d3e26b2787e72e006383cb7e51adcf00b
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6f2c4c045c4cb841^f38d4c045c4cb841^---0#1#1#--18"Check dependencies36"BB632E17-BA03-4366-9012-45D89FD38E8A-
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s407654772.926742
@@ -1776,42 +1243,12 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/ONB.cpp
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/ONB.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vector3.h
-<<<<<<< HEAD
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/ONB.cpp212"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o DukeRayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfb5d8477514cb841^56bc1578514cb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/ONB.cpp0000000000000000^3348"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o DukeRayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o36"BA25E0DF-960E-4DAC-8749-89A05E6CA215-
 bFEDBCBD9-2463-4470-A7FD-C914081BDADD
-=======
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/ONB.cpp212"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o DukeRayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb3eb6698b93fb841^7829fd98b93fb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/ONB.cpp0000000000000000^3348"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o DukeRayTracer/ONB.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o36"AAD9AB22-35BF-41D5-B2E5-7C659D1E79C9-
-b2BB05F08-6536-4530-A119-853DFE0FDA98
-
-CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407648654.544771
-e407648655.024869
-r1
-xCompileC
-xDerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
-x/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Shape.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Material.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp232"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere8858b8e394cb841^0b60068f394cb841^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp0000000000000000^3304"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dalin/Desktop/CPS344RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.d --serialize-diagnostics /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.dia -c /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.cpp -o /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o36"A5D5FEC1-87DC-45BE-BCA9-DFAB6DC8C035-
-bC46A73A0-3003-4419-A7D4-B483A3622EDC
->>>>>>> cbb92d0d3e26b2787e72e006383cb7e51adcf00b
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407654778.350457
-e407654778.835331
+s407657301.350124
+e407657301.807839
 r1
 xCompileC
 xDerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
@@ -1831,8 +1268,8 @@ d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Color.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/ONB.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/BBox.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Material.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Parallelogram.cpp232"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler35d3597a514cb841^87dbd57a514cb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/Parallelogram.cpp0000000000000000^3408"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Parallelogram.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o36"B566D2FC-538B-488E-870E-7EA79FC6313E-
-bFEDBCBD9-2463-4470-A7FD-C914081BDADD
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Parallelogram.cpp232"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1bba59555b4cb841^bccece555b4cb841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/Parallelogram.cpp0000000000000000^3408"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o DukeRayTracer/Parallelogram.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Parallelogram.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o36"8BC57CFF-7565-4F4D-B2F6-9D93AD0F242E-
+b14BAE78A-B652-4237-9B81-A346F7B8AD90
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/PhongMetalMaterial.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s407654773.678172
@@ -2151,59 +1588,12 @@ d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vertex.cpp
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vertex.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vector2.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vector3.h
-<<<<<<< HEAD
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vertex.cpp218"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o DukeRayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler9b8f1b7a514cb841^41d4a97a514cb841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/Vertex.cpp0000000000000000^3366"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o DukeRayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vertex.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o36"B287EA46-5049-422E-B490-C9D1A562F491-
 bFEDBCBD9-2463-4470-A7FD-C914081BDADD
-=======
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Vertex.cpp218"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o DukeRayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd0d21d9bb93fb841^2d06bb9bb93fb841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/Vertex.cpp0000000000000000^3366"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o DukeRayTracer/Vertex.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Vertex.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o36"40C9DF60-B15E-4B72-B309-4C7627E137A6-
-b2BB05F08-6536-4530-A119-853DFE0FDA98
-
-CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407650457.788854
-e407650458.206722
-r1
-xCompileC
-xDerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
-x/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector3.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Color.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Image.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Shape.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Ray.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Texture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vector2.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ONB.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/BBox.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Material.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Triangle.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Sphere.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Camera.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/MarbleTexture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SolidNoise.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/UVSphere.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/NoiseTexture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/ImageTexture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/TriangleMesh.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Mesh.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Vertex.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Parallelogram.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/SimpleTexture.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/DiffuseMaterial.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Instance.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Matrix.h
-d/Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/Lighting.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp214"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5705ca99404cb841^d5ed349a404cb841^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp0000000000000000^3250"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dalin/Desktop/CPS344RayTracer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.dia -c /Users/dalin/Desktop/CPS344RayTracer/DukeRayTracer/main.cpp -o /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o36"C8631F27-B1DB-4571-AE93-2220EB63469A-
-bBFF404A0-949D-4C9C-A250-7D986AC5076E
->>>>>>> cbb92d0d3e26b2787e72e006383cb7e51adcf00b
 
 CCompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s407655714.000477
-e407655714.488462
+s407657476.300409
+e407657476.775200
 r1
 xCompileC
 xDerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
@@ -2240,102 +1630,12 @@ d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/DiffuseMaterial.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Instance.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Matrix.h
 d/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/Lighting.h
-<<<<<<< HEAD
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp214"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5b440022554cb841^7c0d7d22554cb841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/main.cpp0000000000000000^3354"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/main.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o36"6B7A33A5-DBFF-44C3-BB92-ACC084AEBA62-
-bF964AE03-F8B4-4471-91A5-C839E5876D51
-=======
-o/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp:46:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]
-o    shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));
-o                                                                             ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp214"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1973ab822645b841^649522832645b841^-411"/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp:46:78: warning: conversion from string literal to 'char *' is deprecated [-Wdeprecated-writable-strings]    shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm")));                                                                             ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@56"Conversion from string literal to 'char *' is deprecated-407185027#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/main.cpp0000000000000000^45#77#45#77#1412#0#14"Semantic Issue--0#0#1#-19%DVTDocumentLocation4@76"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/main.cpp0000000000000000^3354"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/main.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o36"633784CA-0E83-483A-91BA-0B13C8A5BF11-
-bA1F5C486-1187-4F8E-95C5-2ABF5EE1BFF0
-
-CLd /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64
-s407650458.208777
-e407650458.230378
-r1
-xLd
-x/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
-xnormal
-xx86_64
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffuseMaterial.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BBox.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Camera.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Image.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/MarbleTexture.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/PhongMetalMaterial.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/QSplit.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Lighting.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector2.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Matrix.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Material.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Instance.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ImageTexture.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/List.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Shape.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/ONB.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Ray.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vector3.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DielectricMaterial.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Triangle.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sample.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SimpleTexture.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DiffSpecMaterial.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Sphere.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Color.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Texture.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Mesh.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/SolidNoise.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/NoiseTexture.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/TriangleMesh.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/BVH.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/UVSphere.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DSphere.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Vertex.o
-d/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/Parallelogram.o
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Link /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer77"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64dc82359a404cb841^7afc3a9a404cb841^---0#0#1#--1106"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64    cd /Users/dalin/Desktop/CPS344RayTracer    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug -F/Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug -filelist /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer_dependency_info.dat -o /Users/dalin/Desktop/CPS344RayTracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer36"C2832344-0F39-4A7D-85C8-B086AECEF76E-
-bBFF404A0-949D-4C9C-A250-7D986AC5076E
->>>>>>> cbb92d0d3e26b2787e72e006383cb7e51adcf00b
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DukeRayTracer/main.cpp214"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler09fd4c045c4cb841^3675c6045c4cb841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/yankeenjg/Desktop/CPS344%20Ray%20Tracer/DukeRayTracer/main.cpp0000000000000000^3354"CompileC DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o DukeRayTracer/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-generated-files.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-own-target-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-all-target-headers.hmap -iquote /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DukeRayTracer-project-headers.hmap -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources/x86_64 -I/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/DerivedSources -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -MMD -MT dependencies -MF /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.dia -c /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/main.cpp -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/main.o36"2854BF3F-5A1D-4C93-97C5-666ADD243687-
+bE159178A-AD7C-4CB0-A371-405E7EAAB704
 
 CLd /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64
-s407655714.491147
-e407655714.512762
+s407657476.777041
+e407657476.799885
 r1
 xLd
 x/Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer
@@ -2411,6 +1711,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer77"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_6493c97d22554cb841^4a458322554cb841^---0#0#1#--1154"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -filelist /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer_dependency_info.dat -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer36"A1996532-1354-46C8-B23F-31194289FF2D-
-bF964AE03-F8B4-4471-91A5-C839E5876D51
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/yankeenjg/Desktop/CPS344 Ray Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer77"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_6412f9c6045c4cb841^5f46cd045c4cb841^---0#0#1#--1154"Ld DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer normal x86_64    cd "/Users/yankeenjg/Desktop/CPS344 Ray Tracer"    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -F/Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug -filelist /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Intermediates/DukeRayTracer.build/Debug/DukeRayTracer.build/Objects-normal/x86_64/DukeRayTracer_dependency_info.dat -o /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DerivedData/DukeRayTracer/Build/Products/Debug/DukeRayTracer36"0EEA5C1B-283B-40F9-84B2-11E4639E8AE3-
+bE159178A-AD7C-4CB0-A371-405E7EAAB704
 
