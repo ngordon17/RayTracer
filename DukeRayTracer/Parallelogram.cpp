@@ -8,8 +8,8 @@
 
 #include "Parallelogram.h"
 
-Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, Material* mat) : base(_base), u(_u), v(_v) {
-    mptr = mat;
+Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, Texture* txt) : base(_base), u(_u), v(_v) {
+    tex = txt;
     norm = normalize(cross(u, v));
     unorm = normalize(u);
     vnorm = normalize(v);
@@ -24,8 +24,8 @@ Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vect
     _pdf = 1.0f / area;
 }
 
-Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, Material* mat) : base(_base), u(_u), v(_v), uv0(_uv0), uv1(_uv1), uv2(_uv2) {
-    mptr = mat;
+Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, Texture* txt) : base(_base), u(_u), v(_v), uv0(_uv0), uv1(_uv1), uv2(_uv2) {
+    tex = txt;
     norm = normalize(cross(u, v));
     unorm = normalize(u);
     vnorm = normalize(v);
@@ -53,11 +53,12 @@ bool Parallelogram::intersect(const Ray& r, float tmin, float tmax, float time, 
     float v1 = dot(vnorm, offset) / v.magnitude();
     if (v1 < 0.0f || v1 > 1.0f) {return false;}
     //fill intersect record
-    record.material = mptr;
+    record.tex = tex;
     record.intersection = record.texture_intersection = hit_plane;
     record.t = t;
     record.uvw.initFromW(norm);
     record.uv = v1 * uv2 + (1.0f - v1) * uv0 + u1 * uv1;
+    record.normal = norm;
     return true;
 }
 
@@ -125,6 +126,7 @@ BBox Parallelogram::boundingBox(float time0, float time1) const {
 }
 
 bool Parallelogram::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
+    /*
     light_point = Vector3(base + seed.x() * u + seed.y() * v);
     pdf = _pdf;
     Vector3 from_light = normalize(viewpoint - light_point);
@@ -133,5 +135,6 @@ bool Parallelogram::randomPoint(const Vector3& viewpoint, const Vector2& seed, f
     N = uvw.w();
     
     radiance = mptr -> emittedRadiance(uvw, from_light, light_point, Vector2(0.0f, 0.0f));
+     */
     return true;
 }
