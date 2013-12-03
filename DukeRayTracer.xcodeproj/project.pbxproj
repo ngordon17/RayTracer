@@ -12,6 +12,7 @@
 		6C12C2FE18331EB30057FE7E /* PhongMetalMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C2FC18331EB30057FE7E /* PhongMetalMaterial.cpp */; };
 		6C12C302183349C70057FE7E /* DiffSpecMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C300183349C70057FE7E /* DiffSpecMaterial.cpp */; };
 		6C12C306183353100057FE7E /* DielectricMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C12C304183353100057FE7E /* DielectricMaterial.cpp */; };
+		6C2ABB9A184CC26E004C3366 /* SimpleMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C2ABB99184CC26E004C3366 /* SimpleMaterial.cpp */; };
 		6C3CD26D18319B7300FB7688 /* Vertex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD26B18319B7300FB7688 /* Vertex.cpp */; };
 		6C3CD27218319BDF00FB7688 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27018319BDF00FB7688 /* Mesh.cpp */; };
 		6C3CD27518319C8500FB7688 /* TriangleMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD27318319C8500FB7688 /* TriangleMesh.cpp */; };
@@ -20,6 +21,8 @@
 		6C3CD28C183205E800FB7688 /* BBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28A183205E800FB7688 /* BBox.cpp */; };
 		6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD28E1832093300FB7688 /* QSplit.cpp */; };
 		6C3CD294183209FA00FB7688 /* BVH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CD292183209FA00FB7688 /* BVH.cpp */; };
+		6C864BCD184D091F000C3916 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C864BCC184D091F000C3916 /* OpenGL.framework */; };
+		6C864BCF184D0922000C3916 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C864BCE184D0922000C3916 /* GLUT.framework */; };
 		6C8FC8BE18309F7300945A37 /* SolidNoise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */; };
 		6C8FC8C21830A50200945A37 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C01830A50200945A37 /* Texture.cpp */; };
 		6C8FC8C61830A7B500945A37 /* NoiseTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8FC8C41830A7B500945A37 /* NoiseTexture.cpp */; };
@@ -70,6 +73,8 @@
 		6C12C301183349C70057FE7E /* DiffSpecMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffSpecMaterial.h; sourceTree = "<group>"; };
 		6C12C304183353100057FE7E /* DielectricMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DielectricMaterial.cpp; sourceTree = "<group>"; };
 		6C12C305183353100057FE7E /* DielectricMaterial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DielectricMaterial.h; sourceTree = "<group>"; };
+		6C2ABB98184CC1BD004C3366 /* SimpleMaterial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleMaterial.h; sourceTree = "<group>"; };
+		6C2ABB99184CC26E004C3366 /* SimpleMaterial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMaterial.cpp; sourceTree = "<group>"; };
 		6C3CD26B18319B7300FB7688 /* Vertex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vertex.cpp; sourceTree = "<group>"; };
 		6C3CD26C18319B7300FB7688 /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		6C3CD27018319BDF00FB7688 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
@@ -86,6 +91,8 @@
 		6C3CD28F1832093300FB7688 /* QSplit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSplit.h; sourceTree = "<group>"; };
 		6C3CD292183209FA00FB7688 /* BVH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BVH.cpp; sourceTree = "<group>"; };
 		6C3CD293183209FA00FB7688 /* BVH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVH.h; sourceTree = "<group>"; };
+		6C864BCC184D091F000C3916 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		6C864BCE184D0922000C3916 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		6C8FC8BC18309F7300945A37 /* SolidNoise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolidNoise.cpp; sourceTree = "<group>"; };
 		6C8FC8BD18309F7300945A37 /* SolidNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidNoise.h; sourceTree = "<group>"; };
 		6C8FC8C01830A50200945A37 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
@@ -141,6 +148,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C864BCF184D0922000C3916 /* GLUT.framework in Frameworks */,
+				6C864BCD184D091F000C3916 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +159,7 @@
 		6C12C2F21833173B0057FE7E /* Materials */ = {
 			isa = PBXGroup;
 			children = (
+				6C2ABB97184CBF8D004C3366 /* SimpleMaterial */,
 				6C12C303183352FE0057FE7E /* Dielectric */,
 				6C12C2FF183349BB0057FE7E /* DiffSpecMaterial */,
 				6C12C2FB18331E990057FE7E /* PhongMetal */,
@@ -202,6 +212,15 @@
 				6C12C305183353100057FE7E /* DielectricMaterial.h */,
 			);
 			name = Dielectric;
+			sourceTree = "<group>";
+		};
+		6C2ABB97184CBF8D004C3366 /* SimpleMaterial */ = {
+			isa = PBXGroup;
+			children = (
+				6C2ABB98184CC1BD004C3366 /* SimpleMaterial.h */,
+				6C2ABB99184CC26E004C3366 /* SimpleMaterial.cpp */,
+			);
+			name = SimpleMaterial;
 			sourceTree = "<group>";
 		};
 		6C3CD26A18319B6400FB7688 /* Vertex */ = {
@@ -479,6 +498,8 @@
 		FB493F50182C1C33006D988C = {
 			isa = PBXGroup;
 			children = (
+				6C864BCE184D0922000C3916 /* GLUT.framework */,
+				6C864BCC184D091F000C3916 /* OpenGL.framework */,
 				6CC33B5D183C58F200E853C7 /* Resources */,
 				FB493F5B182C1C33006D988C /* DukeRayTracer */,
 				FB493F5A182C1C33006D988C /* Products */,
@@ -629,6 +650,7 @@
 				6C8FC8CD1830A96400945A37 /* MarbleTexture.cpp in Sources */,
 				6C12C2FE18331EB30057FE7E /* PhongMetalMaterial.cpp in Sources */,
 				6C3CD2901832093300FB7688 /* QSplit.cpp in Sources */,
+				6C2ABB9A184CC26E004C3366 /* SimpleMaterial.cpp in Sources */,
 				FBD6FA9D18441A76003D3623 /* Lighting.cpp in Sources */,
 				FBCFBC8F182C47CA00517262 /* Vector2.cpp in Sources */,
 				6C3CD2831831EACF00FB7688 /* Matrix.cpp in Sources */,

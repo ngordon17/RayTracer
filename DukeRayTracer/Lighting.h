@@ -17,12 +17,13 @@
 
 class Lighting {
 public:
-    Lighting(Vector3 light_ray, Vector3 e) { light_source = light_ray; eye = e; }
-    Color makeLightingColor(Color texture_color, IntersectRecord record, float phong_exponent);
+    Lighting(Vector3 light_ray, Color intensity) {light_source = light_ray; I = intensity;}
+    Vector3 getLightVector(IntersectRecord record);
+    Color getIntensity();
     
 private:
     Vector3 light_source;
-    Vector3 eye;
+    Color I;
 };
 
 #endif /* defined(__DukeRayTracer__Lighting__) */

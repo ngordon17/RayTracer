@@ -151,11 +151,27 @@ int Image::height() {
 }
 
 Color Image::getPixel(int i, int j) {
+    //printf("%d %d", i, j);
     return raster[i][j];
 }
 
 Color** Image::getRaster() {
     return raster;
+}
+
+float* Image::getPixels() {
+    float* imageDisplayArray = new float[nx*ny*3];
+    
+    for (int i = 0; i < ny; i++) {
+        for (int j = 0; j < nx; j++) {
+            int index = nx*ny*3 - (ny*(nx - j - 1) + ny - i)*3; //fix this?......
+            imageDisplayArray[index] = raster[i][j].getRed();
+            imageDisplayArray[index + 1] = raster[i][j].getGreen();
+            imageDisplayArray[index + 2] = raster[i][j].getBlue();
+        }
+    }
+    
+    return imageDisplayArray;
 }
 
 

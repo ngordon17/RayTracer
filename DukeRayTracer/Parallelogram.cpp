@@ -8,8 +8,9 @@
 
 #include "Parallelogram.h"
 
-Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, Texture* txt) : base(_base), u(_u), v(_v) {
-    tex = txt;
+Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, SimpleMaterial* mat) : base(_base), u(_u), v(_v) {
+    //tex = txt;
+    mptr = mat;
     norm = normalize(cross(u, v));
     unorm = normalize(u);
     vnorm = normalize(v);
@@ -24,8 +25,9 @@ Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vect
     _pdf = 1.0f / area;
 }
 
-Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, Texture* txt) : base(_base), u(_u), v(_v), uv0(_uv0), uv1(_uv1), uv2(_uv2) {
-    tex = txt;
+Parallelogram::Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, SimpleMaterial* mat) : base(_base), u(_u), v(_v), uv0(_uv0), uv1(_uv1), uv2(_uv2) {
+    //tex = txt;
+    mptr = mat;
     norm = normalize(cross(u, v));
     unorm = normalize(u);
     vnorm = normalize(v);
@@ -53,12 +55,12 @@ bool Parallelogram::intersect(const Ray& r, float tmin, float tmax, float time, 
     float v1 = dot(vnorm, offset) / v.magnitude();
     if (v1 < 0.0f || v1 > 1.0f) {return false;}
     //fill intersect record
-    record.tex = tex;
+    //record.tex = tex;
     record.intersection = record.texture_intersection = hit_plane;
     record.t = t;
     record.uvw.initFromW(norm);
     record.uv = v1 * uv2 + (1.0f - v1) * uv0 + u1 * uv1;
-    record.normal = norm;
+    record.material = mptr;
     return true;
 }
 

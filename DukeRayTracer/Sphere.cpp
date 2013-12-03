@@ -29,8 +29,9 @@ bool Sphere::intersect(const Ray& r, float tmin, float tmax, float time, Interse
         
         //have a valid intersection
         record.t = t;
-        record.normal = normalize(r.origin() + t*r.direction() - center);
-        record.tex = new SimpleTexture(color);
+        record.intersection = r.pointAtParameter(t);
+        record.uvw.initFromW(normalize(record.intersection - center));
+        record.material = mptr;
         return true;
     }
     return false;
@@ -62,6 +63,7 @@ BBox Sphere::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
+/*
 bool Sphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const {
     float d = (viewpoint - center).magnitude();
     if (d < radius) {return false;}
@@ -92,7 +94,7 @@ bool Sphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float ti
     }
     return false;
 }
-
+*/
 
 
 

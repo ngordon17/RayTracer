@@ -9,4 +9,5 @@ dependencies: \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Ray.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Texture.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Shape.h \
-  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SimpleMaterial.h

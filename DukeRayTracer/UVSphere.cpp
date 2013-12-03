@@ -11,8 +11,8 @@
 #include <cfloat>
 
 
-UVSphere::UVSphere(const Vector3& c, float r, Texture* txt) {
-    center = Vector3(c); radius = float(r); tex = txt;
+UVSphere::UVSphere(const Vector3& c, float r, SimpleMaterial* mat) {
+    center = Vector3(c); radius = float(r); mptr = mat;
 }
 
 bool UVSphere::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
@@ -30,8 +30,8 @@ bool UVSphere::intersect(const Ray& r, float tmin, float tmax, float time, Inter
         
         //valid intersection
         record.t = t;
-        record.intersection = r.origin() + t*r.direction();
-        Vector3 n = record.normal = (record.intersection - center) / radius;
+        record.intersection = r.pointAtParameter(t);
+        Vector3 n = record.uvw.w() = (record.intersection - center) / radius;
         
         //calculate UV coords
         float two_pi = 6.28318530718f;
@@ -43,11 +43,12 @@ bool UVSphere::intersect(const Ray& r, float tmin, float tmax, float time, Inter
         float one_over_pi = .3183098861874f;
         
         record.uv = Vector2(phi*one_over_two_pi, (M_PI - theta) * one_over_pi);
-        record.tex = tex;
+        record.material = mptr;
         return true;
     }
     return false;
 }
+
 bool UVSphere::shadowIntersect(const Ray& r, float tmin, float tmax, float time) const {
     Vector3 temp = r.origin() - center;
     
@@ -76,6 +77,7 @@ BBox UVSphere::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
+/*
 bool UVSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const {
     float d = (viewpoint - center).magnitude();
     if (d < radius) {return false;}
@@ -106,3 +108,4 @@ bool UVSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float 
     }
     return false;
 }
+*/

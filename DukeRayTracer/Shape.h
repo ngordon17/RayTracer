@@ -17,6 +17,7 @@
 #include "ONB.h"
 #include "BBox.h"
 #include "Material.h"
+#include "SimpleMaterial.h"
 
 //class Ray;
 //class Color;
@@ -38,13 +39,11 @@ struct IntersectRecord {
 //combination of old and new intersection records...
 struct IntersectRecord {
     float t;
-    Vector3 normal; //normal is now just w of uvw (new record) so unnecessary
     Vector3 intersection;
     Vector3 texture_intersection;
     ONB uvw;
     Vector2 uv;
-    Texture* tex; //tex now stored in material so unnecessary
-    Material* material;
+    SimpleMaterial* material;
 };
 
 class Shape {
@@ -54,10 +53,10 @@ public:
     //useful to determine intersections for occluded objects as it is faster / more efficient
     virtual bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const=0;
     virtual BBox boundingBox(float time0, float time1) const {return bbox;} //correct?
-    virtual bool randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const=0;
+    //virtual bool randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const=0;
 protected:
     BBox bbox;
-    Material* mptr;
+    SimpleMaterial* mptr;
 };
 
 #endif /* defined(__RayTracer__Shape__) */

@@ -13,12 +13,13 @@
 #include "Shape.h"
 #include "BBox.h"
 #include "Texture.h"
+#include "SimpleMaterial.h"
 #define PARALLEL_EPSILON 0.00000001f
 
 class Parallelogram : public Shape {
 public:
-    Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, Texture* txt);
-    Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, Texture* txt);
+    Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, SimpleMaterial* mat);
+    Parallelogram(const Vector3& _base, const Vector3& _u, const Vector3& _v, const Vector2& _uv0, const Vector2& _uv1, const Vector2& _uv2, SimpleMaterial* mat);
     bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const;
     bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
     BBox boundingBox(float time0, float time1) const;
@@ -35,7 +36,8 @@ private:
     Vector2 uv1;   //texture coords
     Vector2 uv2;   //
     float _pdf;    // precomputed constant pdf (probability density function)
-    Texture* tex;
+    
+    
 };
 
 #endif /* defined(__RayTracer__Parallelogram__) */

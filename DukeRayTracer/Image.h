@@ -34,6 +34,7 @@ public:
     int height();
     Color getPixel(int i, int j);
     Color** getRaster();
+    float* getPixels();
     
 private:
     Color** raster; //2D raster array of RGB colors for each pixel

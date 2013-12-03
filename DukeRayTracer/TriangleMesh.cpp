@@ -45,9 +45,9 @@ bool MeshTriangleUV::intersect(const Ray&r, float tmin, float tmax, float time, 
         Vector2 u1((mesh -> vertUVs[verts[1]]).uv);
         Vector2 u2((mesh -> vertUVs[verts[2]]).uv);
         record.uv = Vector2(alpha*u0.x() + beta*u1.x() + gamma*u2.x(), alpha*u0.y() + beta*u1.y() + gamma*u2.y());
-        record.tex = mesh -> getTexture();
         record.t = tval;
-        record.normal = normalize(cross((v1 - v0), (v2 - v0)));
+        record.material = mptr;
+        record.uvw.initFromW(normalize(cross((v1 - v0), (v2 - v0))));
         return true;
     }
     return false;
@@ -81,6 +81,7 @@ BBox MeshTriangleUV::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
+/*
 bool MeshTriangleUV::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
     Vector3 v0((mesh -> vertUVs[verts[0]]).vertex);
     Vector3 v1((mesh -> vertUVs[verts[1]]).vertex);
@@ -95,6 +96,5 @@ bool MeshTriangleUV::randomPoint(const Vector3& viewpoint, const Vector2& seed, 
     uvw.initFromW(N);
     radiance = mptr -> emittedRadiance(uvw, from_light, light_point, Vector2(0.0f, 0.0f));
     return true;
-    
-    
 }
+*/

@@ -10,6 +10,7 @@ dependencies: \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/ONB.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/BBox.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/Material.h \
+  /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SimpleMaterial.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SimpleTexture.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/NoiseTexture.h \
   /Users/yankeenjg/Desktop/CPS344\ Ray\ Tracer/DukeRayTracer/SolidNoise.h \

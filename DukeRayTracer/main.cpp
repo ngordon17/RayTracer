@@ -29,16 +29,39 @@
 #include "DiffuseMaterial.h"
 #include "Instance.h"
 #include "Lighting.h"
+#include "SimpleMaterial.h"
+#include <OpenGL/OpenGL.h>
+#include <GLUT/GLUT.h>
 
+
+float win_width = 512;
+float win_height = 512;
+float* current_pixels;
+Image* current_image;
 
 vector<Shape*> makeScene() {
     vector<Shape*> shapes;
+    
+    /*
+    shapes.push_back(new Sphere(Vector3(0, 0, -17), 2.0,
+            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
+    shapes.push_back(new Sphere(Vector3(0, 4, -17), 1.5,
+            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
+    shapes.push_back(new Sphere(Vector3(0, -4, -17), 1.5,
+            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
+    shapes.push_back(new Sphere(Vector3(4, 0, -17), 1.5,
+            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
+    shapes.push_back(new Sphere(Vector3(-4, 0, -17), 2.0,
+            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
+    */
+    
+    
     
     //How to implement materials??
     //base = vertex, u = offset in one direction, v = offset in other direction, 4th vertex defined because
     //it is a parallelogram
     //shapes.push_back(new Parallelogram(Vector3(-2, -2, 0), Vector3(0, 0, -1), Vector3(2, 0, 0), new MarbleTexture(2)));
-    shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleTexture(Color(1, 0, 0))));
+    
     //shapes.push_back(new Parallelogram(Vector3(0.5, 0, 0), Vector3(-0.5, 1, 1), Vector3(0.5, 1, 1), new SimpleTexture(Color(1, 0, 0))));
     
     /* //create an ellipsoid using instance with sphere and scale matrix
@@ -46,7 +69,21 @@ vector<Shape*> makeScene() {
      */
     
     //texture map sphere with world map i.e. make a globe
-    //shapes.push_back(new UVSphere(Vector3(0, 0, -250), 150, new ImageTexture("/Users/dalin/Desktop/CPS344RayTracer/world_map.ppm")));
+    /*
+    shapes.push_back(new UVSphere(Vector3(0, 0, -20), 1.5, new SimpleMaterial(new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm"), Color(1.0, 1.0, 1.0), Color(1.0, 1.0, 1.0), 50, 0, Color(0, 0, 0))));
+    */
+    
+    shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(1, 1, 1))));
+    
+    shapes.push_back(new Sphere(Vector3(0, 0, -20), 3.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
+    
+    shapes.push_back(new Sphere(Vector3(-2, 2, -15), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
+    
+    shapes.push_back(new Sphere(Vector3(-2, -3, -15), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
+    
+    
+    //shapes.push_back(new Triangle(Vector3(5, 5, -17), Vector3(1, 4, -20), Vector3(6, -1, -20), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.1, 0.1, 0.1), Color(1, 1, 1), 50, 0, Color(1, 1, 1))));
+    
     
     /* //create sphere with triangle
      shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
@@ -63,77 +100,165 @@ vector<Shape*> makeScene() {
     
 }
 
-Color makeLightingColor(Vector3 light_source, Color texture_color, Camera cam, IntersectRecord record, float phong_exponent) {
-    Color ambient_color = Color(0.1, 0.1 ,0.1);
-    Color diffuse_color = Color(1.0, 1.0, 1.0);
-    Color specular_color = Color(1.0, 1.0, 1.0);
+vector<Lighting*> makeLighting() {
+    vector<Lighting*> lights;
+    //Lighting light = Lighting(Vector3(-1, 0 , -5));
     
-    Vector3 vertex_to_light_vector = light_source - record.intersection;
-    Vector3 normalized_vertex_to_light_vector = normalize(vertex_to_light_vector);
-    Vector3 vertex_to_eye_vector = cam.getE() - record.intersection;
-    Vector3 bisector = normalize(vertex_to_light_vector + vertex_to_eye_vector);
+    lights.push_back(new Lighting(Vector3(-4, 4, -10), Color(1, 1, 1)));
+    lights.push_back(new Lighting(Vector3(0, -2, -2), Color(0, 0, 1)));
     
-    float diffuse_term = dot(record.normal, normalized_vertex_to_light_vector);
-    if (diffuse_term < 0.0) diffuse_term = 0.0;
-    if (diffuse_term > 1.0) diffuse_term = 1.0;
+    lights.push_back(new Lighting(Vector3(2, 5, -5), Color(1, 1,1)));
+     
     
-    float specular_term = dot(record.normal, bisector);
-    if (specular_term < 0.0) specular_term = 0.0;
-    if (specular_term > 1.0) specular_term = 1.0;
-    
-    float phong_constant = pow(specular_term, phong_exponent);
-    Color lighting_color = ambient_color + (diffuse_color * diffuse_term) + (specular_color * phong_constant);
-    Color mix_color = (texture_color + lighting_color)/2.0;
-    
-    return mix_color;
+    /*
+    lights.push_back(new Lighting(Vector3(0.57735027, -0.57735027, -0.57735027), Color(1, 1, 1)));
+    lights.push_back(new Lighting(Vector3(-0.57735027, 0.57735027, -0.57735027), Color(1, 1, 1)));
+    */
+    return lights;
 }
 
-int main(int argc, const char * argv[])
-{
-    IntersectRecord record;
-    bool is_a_hit;
-    float tmax; //max valid t parameter
-    Vector3 dir(0, 0, -1); //use -z direction for the viewing rays to use a right handed coordinate system
-    
-    
-    vector<Shape*> shapes = makeScene();
-    
-    float res = 512;
-    Image im(res, res);
-    Camera cam(Vector3(0, 0, 2), Vector3(0, 0, -2), Vector3(0, 1, 0), 0.0, -2, 2, -2, 2, 1);
 
-    Lighting light = Lighting(Vector3(0, 0 , -5), cam.getE());
-    //for each pixel on a 500x500 pixel image
-    for (int i = 0; i < res; i++) {
-        for (int j = 0; j < res; j++) {
-            tmax = 100000.0f;
-            is_a_hit = false;
-            //Ray r(Vector3(i, j, 0), dir); //ray with pixel as the origin and dir as directional vector
-            Ray r = cam.getRay(i, j, res, res, 0, 0);
-            
-            for (int k = 0; k < shapes.size(); k++) {
-                if (shapes[k]->intersect(r, .00001f, tmax, 0, record)) {
-                    tmax = record.t;
-                    is_a_hit = true;
-                }
-            }
-            
-            //if intersects with a shape, draw the shape's color
-            if (is_a_hit) {
-                Color texture_color = record.tex-> value(record.uv, record.intersection);
-                
-                //color, record, camera, phong constant
-                
-                //Color mix_color = texture_color;
-                Color mix_color = light.makeLightingColor(texture_color, record, 50.0);
-                
-                im.set(i, j, mix_color);
-            }
-            else {
-                im.set(i, j, Color(.2, .2, .2));
-            }
+
+bool trace(IntersectRecord& record, Ray r, vector<Shape*> shapes, float tmin, float tmax) {
+    bool is_hit = false;
+    
+    for (int k = 0; k < shapes.size(); k++) {
+        if (shapes[k] -> intersect(r, tmin, tmax, 0, record)) {
+            is_hit = true;
         }
     }
-    im.writePPM(cout);
+    return is_hit;
+}
+
+bool shadowTrace(Ray r, vector<Shape*> shapes, float tmin, float tmax) {
+    bool is_hit = false;
+    
+    for (int k = 0; k < shapes.size(); k++) {
+        if (shapes[k] -> shadowIntersect(r, tmin, tmax, 0)) {
+            is_hit = true;
+        }
+    }
+    return is_hit;
+}
+
+Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmin, float tmax, float depth, float max_depth) {
+    
+    if (depth > max_depth) {return Color(0.0, 0.0, 0.0);}
+    IntersectRecord record;
+    bool is_hit = trace(record, r, shapes, tmin, tmax);
+    if (is_hit) {
+        Color radiance = record.material -> ambientResponse(record.intersection, record.uv);
+        //calculate lighting / shadows
+        for (int k = 0; k < lights.size(); k++) {
+            Vector3 to_light = lights[k] -> getLightVector(record);
+            //check for shadow / object blocking light
+            if (!shadowTrace(Ray(record.intersection, to_light), shapes, 0.0001f, 100000.0f)) {
+                radiance += lights[k] -> getIntensity() * record.material -> emittedRadiance(record.uvw, to_light, -r.direction());
+            }
+            Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, -to_light);
+            Ray reflect_ray = Ray(record.intersection, reflect_dir);
+            
+            
+            
+            
+            Color reflectance = traceRay(reflect_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
+           // printf("R = %f G = %f B = %f", reflectance.getRed(), reflectance.getGreen(), reflectance.getBlue());
+            radiance += record.material -> reflectiveResponse(reflectance);
+        }
+        return radiance;
+    }
+    return Color(0, 0, 0);
+}
+
+
+Image draw(float width, float height) {
+    IntersectRecord record;
+    vector<Shape*> shapes = makeScene();
+    vector<Lighting*> lights = makeLighting();
+    
+    Image im(width, height);
+    Camera cam(Vector3(0, 0, 0), Vector3(0, 0, -1), Vector3(0, 1, 0), 0.0, -1.0, 1.0, -1.0, 1.0, 3, width, height);
+    
+    //for each pixel
+    for (int i = 0; i < width; i++) {
+        for (int j = 0; j < height; j++) {
+            Ray r = cam.getRay(i, j, 0, 0);
+            Color radiance = traceRay(r, shapes, lights, .00001f, 100000.0f, 0, 1);
+            im.set(i, j, radiance);
+        }
+    }
+    return im;
+}
+
+
+
+void init( void ){
+    glClearColor(0.0, 0.0, 0.0, 0.0);
+}
+
+void idle( void ){
+    //glutPostRedisplay();
+}
+
+void drawImage( void ){
+
+    if(current_pixels != NULL){
+        glClear(GL_COLOR_BUFFER_BIT);
+        glRasterPos2i(0, 0);
+        glDrawPixels(win_width, win_height, GL_RGB, GL_FLOAT, current_pixels);
+    }
+}
+
+void display( void ) {
+    glMatrixMode( GL_PROJECTION );
+    glLoadIdentity();
+    glOrtho(0, win_width, 0, win_height, -1, 1);
+    glMatrixMode(GL_MODELVIEW);
+    glLoadIdentity();
+    
+    drawImage();
+    
+    glFlush();
+    glutSwapBuffers();
+}
+
+void reshape( int w, int h ) {
+    glViewport( 0, 0, win_width, win_height );
+    
+   // glutPostRedisplay();
+}
+
+void keyboard( unsigned char key, int x, int y ) {
+    switch(key) {
+        case 27: // Escape key
+            exit(0);
+            break;
+        case 119: //w
+            if (current_image != NULL) {current_image -> writePPM(cout);}
+            break;
+        
+    }
+}
+
+int main(int argc, char * argv[]) {
+    Image im = draw(win_width, win_height);
+    current_image = &im;
+    current_pixels = im.getPixels();
+    
+    
+    
+    glutInit(&argc, argv);
+    glutInitDisplayMode( GLUT_RGB );
+    glutInitWindowSize( win_width, win_height );
+    glutCreateWindow( "Duke Ray Tracer" );
+    init();
+    glutDisplayFunc( display );
+    glutReshapeFunc( reshape );
+    glutKeyboardFunc( keyboard );
+    glutIdleFunc( idle );
+    glutMainLoop();
+    
+    
+    return 0;
 }
 

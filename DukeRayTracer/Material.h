@@ -18,6 +18,11 @@
 
 class Material {
 public:
+    virtual Color ambientResponse(const Vector3& p, const Vector2& uv) {return Color(0.0f, 0.0f, 0.0f);}
+    virtual Color diffuseResponse(const ONB& normal, const Vector3& light_vector) {return Color(0.0f, 0.0f, 0.0f);}
+    virtual Color specularResponse(const ONB& normal, const Vector3& light_vector, const Vector3& eye_vector) {return Color(0.0f, 0.0f, 0.0f);}
+    virtual Color emittedRadiance(const ONB& normal, const Vector3& light_vector, const Vector3& eye_vector) {return Color(0.0f, 0.0f, 0.0f);}
+    
     virtual bool emits() const {return false;}
     //ONB of hit point, outgoing light direction, texture point, texture coordinate
     virtual Color emittedRadiance(const ONB&, const Vector3&, const Vector3&, const Vector2&) {return Color(0.0f, 0.0f, 0.0f);}
@@ -37,7 +42,8 @@ public:
     virtual int causticPhotons() {return 0;}
     virtual int globalPhotons() {return 0;}
     virtual Color photonColor() {return Color(0.0f, 0.0f, 0.0f);}
-    virtual Texture* getTexture() = 0;
+    //virtual Texture* getTexture() = 0;
+     
 };
 
 #endif /* defined(__RayTracer__Material__) */

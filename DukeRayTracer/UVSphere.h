@@ -19,16 +19,16 @@
 
 class UVSphere : public Shape {
 public:
-    UVSphere(const Vector3& c, float r, Texture* tex);
+    UVSphere(const Vector3& c, float r, SimpleMaterial* mat);
     bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const;
     bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
     BBox boundingBox(float time0, float time1) const;
-    bool randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const;
+   // bool randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const;
 
 private:
     Vector3 center;
     float radius;
-    Texture* tex;
+   // Texture* tex;
     
 };
 

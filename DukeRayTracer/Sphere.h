@@ -17,7 +17,7 @@
 
 class Sphere : public Shape {
 public:
-    Sphere(const Vector3& c, float r, const Color& rgb) {center = Vector3(c); radius = float(r); color = Color(rgb);}
+    Sphere(const Vector3& c, float r, SimpleMaterial* mat) {center = Vector3(c); radius = float(r); mptr = mat;}
     bool intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const;
     bool shadowIntersect(const Ray& r, float tmin, float tmax, float time) const;
     BBox boundingBox(float time0, float time1) const;
@@ -26,7 +26,6 @@ public:
 private:
     Vector3 center;
     float radius;
-    Color color;
 };
 
 #endif /* defined(__RayTracer__Sphere__) */

@@ -10,8 +10,8 @@
 #include "SimpleTexture.h"
 #include <cfloat>
 
-DSphere::DSphere(const Vector3& oc, float r, const Color& rgb, float min_time, float max_time) {
-    ocenter = Vector3(oc); radius = float(r); color = Color(rgb);
+DSphere::DSphere(const Vector3& oc, float r, SimpleMaterial* mat, float min_time, float max_time) {
+    ocenter = Vector3(oc); radius = float(r); mptr = mat;
     mintime = float(min_time); max_time = float(max_time);
 }
 
@@ -32,8 +32,8 @@ bool DSphere::intersect(const Ray& r, float tmin, float tmax, float time, Inters
         
         //have a valid intersection
         record.t = t;
-        record.normal = normalize(r.origin() + t*r.direction() - center);
-        record.tex = new SimpleTexture(color);
+        record.uvw.initFromW(normalize(r.origin() + t*r.direction() - center));
+        record.material = mptr;
         return true;
     }
     return false;
@@ -71,6 +71,7 @@ BBox DSphere::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
+/*
 bool DSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float time, Vector3 &light_point, Vector3 &N, float &pdf, Color &radiance) const {
     float d = (viewpoint - getCenter(0)).magnitude();
     if (d < radius) {return false;}
@@ -101,4 +102,4 @@ bool DSphere::randomPoint(const Vector3 &viewpoint, const Vector2 &seed, float t
     }
     return false;
 }
-
+*/

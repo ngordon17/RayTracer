@@ -9,9 +9,9 @@
 #include "Triangle.h"
 #include "SimpleTexture.h"
 
-Triangle::Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, const Color& rgb) {
+Triangle::Triangle(const Vector3& p0, const Vector3& p1, const Vector3& p2, SimpleMaterial* mat) {
     v0 = p0; v1 = p1; v2 = p2;
-    color = rgb;
+    mptr = mat;
 }
 
 bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, IntersectRecord& record) const {
@@ -38,8 +38,8 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, Inter
     //if t is not between our min and our max values then ignore
     if (tval >= tmin && tval <= tmax) {
         record.t = tval;
-        record.normal = normalize(cross((v1 - v0), (v2 - v0)));
-        record.tex = new SimpleTexture(color);
+        record.uvw.initFromW(normalize(cross((v1 - v0), (v2 - v0))));
+        record.material = mptr;
         return true;
     }
     
@@ -75,6 +75,7 @@ BBox Triangle::boundingBox(float time0, float time1) const {
     return bbox;
 }
 
+/*
 bool Triangle::randomPoint(const Vector3& viewpoint, const Vector2& seed, float time, Vector3& light_point, Vector3& N, float& pdf, Color& radiance) const {
     float temp = sqrt(1.0f - seed.x());
     float beta = (1.0f - temp);
@@ -87,9 +88,7 @@ bool Triangle::randomPoint(const Vector3& viewpoint, const Vector2& seed, float 
     radiance = mptr -> emittedRadiance(uvw, from_light, light_point, Vector2(0.0f, 0.0f));
     return true;
 }
-
-
-
+*/
 
 
 
