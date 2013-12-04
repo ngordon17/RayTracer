@@ -70,6 +70,5 @@ bool DielectricMaterial::transmissionDirection(const ONB &uvw, const Vector3 &in
     }
     fresnel_scale = 1.0f - (R0 + (1.0f - R0) * pow(1.0f - cosine, 5));
     return true;
-            
 }
 

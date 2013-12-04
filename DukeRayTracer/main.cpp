@@ -73,17 +73,17 @@ vector<Shape*> makeScene() {
     shapes.push_back(new UVSphere(Vector3(0, 0, -20), 1.5, new SimpleMaterial(new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm"), Color(1.0, 1.0, 1.0), Color(1.0, 1.0, 1.0), 50, 0, Color(0, 0, 0))));
     */
     
+    
+    /*
     shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(1, 1, 1))));
+    */
+    shapes.push_back(new Parallelogram(Vector3(3, -1, 0), Vector3(0, 0, -80), Vector3(-6, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(0.9, 0.9, 0.9))));
     
-    shapes.push_back(new Sphere(Vector3(0, 0, -20), 3.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
+    shapes.push_back(new Sphere(Vector3(1, 4, -19), 3.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
-    shapes.push_back(new Sphere(Vector3(-2, 2, -15), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
+    shapes.push_back(new Sphere(Vector3(-2, 3, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
-    shapes.push_back(new Sphere(Vector3(-2, -3, -15), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0, 0, 0))));
-    
-    
-    //shapes.push_back(new Triangle(Vector3(5, 5, -17), Vector3(1, 4, -20), Vector3(6, -1, -20), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.1, 0.1, 0.1), Color(1, 1, 1), 50, 0, Color(1, 1, 1))));
-    
+    shapes.push_back(new Sphere(Vector3(-2, 0, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
     /* //create sphere with triangle
      shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
@@ -104,10 +104,10 @@ vector<Lighting*> makeLighting() {
     vector<Lighting*> lights;
     //Lighting light = Lighting(Vector3(-1, 0 , -5));
     
-    lights.push_back(new Lighting(Vector3(-4, 4, -10), Color(1, 1, 1)));
-    lights.push_back(new Lighting(Vector3(0, -2, -2), Color(0, 0, 1)));
+    lights.push_back(new Lighting(Vector3(-4, 8, -10), Color(1, 1, 1)));
+    lights.push_back(new Lighting(Vector3(6, 4, -2), Color(0, 0, 1)));
     
-    lights.push_back(new Lighting(Vector3(2, 5, -5), Color(1, 1,1)));
+    lights.push_back(new Lighting(Vector3(3, 10, -3), Color(1, 1,1)));
      
     
     /*
@@ -152,20 +152,41 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
         for (int k = 0; k < lights.size(); k++) {
             Vector3 to_light = lights[k] -> getLightVector(record);
             //check for shadow / object blocking light
-            if (!shadowTrace(Ray(record.intersection, to_light), shapes, 0.0001f, 100000.0f)) {
+            if (!shadowTrace(Ray(record.intersection, to_light), shapes, tmin, tmax)) {
                 radiance += lights[k] -> getIntensity() * record.material -> emittedRadiance(record.uvw, to_light, -r.direction());
             }
-            Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, -to_light);
-            Ray reflect_ray = Ray(record.intersection, reflect_dir);
             
             
+            //does this go here? lol works if uncomment... sort of
+            if (record.material -> isReflective()) {
+                
+                Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, to_light);
+                Ray reflect_ray = Ray(record.intersection, reflect_dir);
+                Color reflectance = traceRay(reflect_ray, shapes, lights, tmin + 0.1, tmax, depth + 1, max_depth);
+                radiance += reflectance * record.material -> reflectiveResponse(depth);
+            }
             
-            
-            Color reflectance = traceRay(reflect_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
-           // printf("R = %f G = %f B = %f", reflectance.getRed(), reflectance.getGreen(), reflectance.getBlue());
-            radiance += record.material -> reflectiveResponse(reflectance);
+             
         }
+        
+        if (record.material -> isReflective()) {
+            Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, r.direction());
+            Ray reflect_ray = Ray(record.intersection, reflect_dir);
+            Color reflectance = traceRay(reflect_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
+            radiance += reflectance * record.material -> reflectiveResponse(depth);
+        }
+        
+        if (record.material -> isTransmissive()) {
+            Vector3 trans_dir; float fresnel_scale; Color extinction;
+            if (record.material -> getTransmissionDirection(record.uvw, r.direction(), extinction, fresnel_scale, trans_dir)) {
+                Ray refract_ray = Ray(record.intersection, trans_dir);
+                Color refraction = traceRay(refract_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
+                radiance += refraction * record.material -> transmissiveResponse(depth);
+            }
+        }
+         
         return radiance;
+         
     }
     return Color(0, 0, 0);
 }
@@ -177,7 +198,7 @@ Image draw(float width, float height) {
     vector<Lighting*> lights = makeLighting();
     
     Image im(width, height);
-    Camera cam(Vector3(0, 0, 0), Vector3(0, 0, -1), Vector3(0, 1, 0), 0.0, -1.0, 1.0, -1.0, 1.0, 3, width, height);
+    Camera cam(Vector3(0, 0, 0), Vector3(0, 0, -1), Vector3(0, 1, 0), 0.0, -2.0, 2.0, -2.0, 2.0, 3, width, height);
     
     //for each pixel
     for (int i = 0; i < width; i++) {
@@ -244,8 +265,7 @@ int main(int argc, char * argv[]) {
     Image im = draw(win_width, win_height);
     current_image = &im;
     current_pixels = im.getPixels();
-    
-    
+
     
     glutInit(&argc, argv);
     glutInitDisplayMode( GLUT_RGB );
