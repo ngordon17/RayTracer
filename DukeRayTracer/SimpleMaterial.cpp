@@ -54,23 +54,19 @@ Color SimpleMaterial::transmissiveResponse(float depth) {
 
 //http://cse.csusb.edu/tong/courses/cs621/notes/ray.php
 Vector3 SimpleMaterial::getReflectionDirection(const ONB& normal, const Vector3& in_dir) {
-    
-    
     Vector3 reflection = normal.w();
-    reflection *= -2.0 * dot(in_dir, normal.w());
     reflection *= -2.0 * dot(in_dir, normal.w());
     reflection += in_dir;
     reflection.normalize();
     return reflection;
     
-     
-   
     /*
     //use dot product to get cos(theta) where theta angle between in_dir and normal
     float cosine = dot(normal.w(), in_dir);
     //use cosine to calculate reflected ray (angle of incidence same as exit angle)
     return in_dir + 2 * cosine * normal.w();
-    */
+     */
+     
 }
 
 bool SimpleMaterial::isReflective() {

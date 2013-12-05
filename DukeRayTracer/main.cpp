@@ -77,7 +77,7 @@ vector<Shape*> makeScene() {
     /*
     shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(1, 1, 1))));
     */
-    shapes.push_back(new Parallelogram(Vector3(3, -1, 0), Vector3(0, 0, -80), Vector3(-6, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(0.9, 0.9, 0.9))));
+    shapes.push_back(new Parallelogram(Vector3(3, -1, 0), Vector3(0, 0, -80), Vector3(-6, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.1, 0.1, 0.1), Color(1.0, 1.0, 1.0), 50, 0, Color(0.9, 0.9, 0.9))));
     
     shapes.push_back(new Sphere(Vector3(1, 4, -19), 3.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
@@ -155,19 +155,8 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
             if (!shadowTrace(Ray(record.intersection, to_light), shapes, tmin, tmax)) {
                 radiance += lights[k] -> getIntensity() * record.material -> emittedRadiance(record.uvw, to_light, -r.direction());
             }
-            
-            
-            //does this go here? lol works if uncomment... sort of
-            if (record.material -> isReflective()) {
-                
-                Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, to_light);
-                Ray reflect_ray = Ray(record.intersection, reflect_dir);
-                Color reflectance = traceRay(reflect_ray, shapes, lights, tmin + 0.1, tmax, depth + 1, max_depth);
-                radiance += reflectance * record.material -> reflectiveResponse(depth);
-            }
-            
-             
         }
+        
         
         if (record.material -> isReflective()) {
             Vector3 reflect_dir = record.material -> getReflectionDirection(record.uvw, r.direction());
@@ -176,6 +165,7 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
             radiance += reflectance * record.material -> reflectiveResponse(depth);
         }
         
+        /*
         if (record.material -> isTransmissive()) {
             Vector3 trans_dir; float fresnel_scale; Color extinction;
             if (record.material -> getTransmissionDirection(record.uvw, r.direction(), extinction, fresnel_scale, trans_dir)) {
@@ -184,7 +174,8 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
                 radiance += refraction * record.material -> transmissiveResponse(depth);
             }
         }
-         
+        */
+        
         return radiance;
          
     }
@@ -204,7 +195,7 @@ Image draw(float width, float height) {
     for (int i = 0; i < width; i++) {
         for (int j = 0; j < height; j++) {
             Ray r = cam.getRay(i, j, 0, 0);
-            Color radiance = traceRay(r, shapes, lights, .00001f, 100000.0f, 0, 1);
+            Color radiance = traceRay(r, shapes, lights, .0001f, 100000.0f, 0, 10);
             im.set(i, j, radiance);
         }
     }
