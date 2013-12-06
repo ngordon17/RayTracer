@@ -40,6 +40,9 @@ bool Triangle::intersect(const Ray& r, float tmin, float tmax, float time, Inter
         record.t = tval;
         record.uvw.initFromW(normalize(cross((v1 - v0), (v2 - v0))));
         record.material = mptr;
+        record.intersection = r.pointAtParameter(tval);
+        record.uv = Vector2(0.5, 0.5);
+        record.texture_intersection = record.intersection;
         return true;
     }
     

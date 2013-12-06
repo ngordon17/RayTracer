@@ -34,6 +34,7 @@ bool DSphere::intersect(const Ray& r, float tmin, float tmax, float time, Inters
         record.t = t;
         record.uvw.initFromW(normalize(r.origin() + t*r.direction() - center));
         record.material = mptr;
+
         return true;
     }
     return false;

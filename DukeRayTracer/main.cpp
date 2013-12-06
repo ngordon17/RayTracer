@@ -32,88 +32,40 @@
 #include "SimpleMaterial.h"
 #include <OpenGL/OpenGL.h>
 #include <GLUT/GLUT.h>
+#include "DSphere.h"
 
 
-float win_width = 512;
-float win_height = 512;
+float dtime = 0;
+float win_width = 1024;
+float win_height = 1024;
 float* current_pixels;
 Image* current_image;
 
 vector<Shape*> makeScene() {
     vector<Shape*> shapes;
     
-    /*
-    shapes.push_back(new Sphere(Vector3(0, 0, -17), 2.0,
-            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    shapes.push_back(new Sphere(Vector3(0, 4, -17), 1.5,
-            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    shapes.push_back(new Sphere(Vector3(0, -4, -17), 1.5,
-            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    shapes.push_back(new Sphere(Vector3(4, 0, -17), 1.5,
-            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    shapes.push_back(new Sphere(Vector3(-4, 0, -17), 2.0,
-            new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    */
+    shapes.push_back(new Parallelogram(Vector3(10, -1, 0), Vector3(0, 0, -20), Vector3(-20, 0, 0), new SimpleMaterial(new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/checkerboard.ppm"), Color(0.0, 0.0, 0.0), Color(0.0, 0.0, 0.0), 50, 0, Color(0.9, 0.9, 0.9))));
     
+    shapes.push_back(new Sphere(Vector3(0, 1, -14), 2.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
+    shapes.push_back(new Sphere(Vector3(4, 0, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
-    //How to implement materials??
-    //base = vertex, u = offset in one direction, v = offset in other direction, 4th vertex defined because
-    //it is a parallelogram
-    //shapes.push_back(new Parallelogram(Vector3(-2, -2, 0), Vector3(0, 0, -1), Vector3(2, 0, 0), new MarbleTexture(2)));
+    shapes.push_back(new Sphere(Vector3(-4, 0, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
     
-    //shapes.push_back(new Parallelogram(Vector3(0.5, 0, 0), Vector3(-0.5, 1, 1), Vector3(0.5, 1, 1), new SimpleTexture(Color(1, 0, 0))));
+    shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0, 0.4, 1.0), new Sphere(Vector3(-5, 12, -12), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9)))));
     
-    /* //create an ellipsoid using instance with sphere and scale matrix
-     shapes.push_back(new Instance(Matrix::getScaleMatrix(1.0f, 0.5f, 1.0f), new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8))));
-     */
-    
-    //texture map sphere with world map i.e. make a globe
-    /*
-    shapes.push_back(new UVSphere(Vector3(0, 0, -20), 1.5, new SimpleMaterial(new ImageTexture("/Users/yankeenjg/Desktop/CPS344 Ray Tracer/world_map.ppm"), Color(1.0, 1.0, 1.0), Color(1.0, 1.0, 1.0), 50, 0, Color(0, 0, 0))));
-    */
-    
-    
-    /*
-    shapes.push_back(new Parallelogram(Vector3(20, -4, 0), Vector3(0, 0, -20), Vector3(-40, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.5, 0.5, 0.5), Color(1.0, 1.0, 1.0), 50, 0, Color(1, 1, 1))));
-    */
-    shapes.push_back(new Parallelogram(Vector3(3, -1, 0), Vector3(0, 0, -80), Vector3(-6, 0, 0), new SimpleMaterial(new SimpleTexture(Color(0.1, 0.1, 0.1)), Color(0.1, 0.1, 0.1), Color(1.0, 1.0, 1.0), 50, 0, Color(0.9, 0.9, 0.9))));
-    
-    shapes.push_back(new Sphere(Vector3(1, 4, -19), 3.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 0, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    
-    shapes.push_back(new Sphere(Vector3(-2, 3, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(1, 1, 0), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    
-    shapes.push_back(new Sphere(Vector3(-2, 0, -14), 1.0, new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 1), Color(1, 1, 1), 50, 0, Color(0.9, 0.9, 0.9))));
-    
-    /* //create sphere with triangle
-     shapes.push_back(new Sphere(Vector3(250, 250, -1000), 150, Color(.2, .2, .8)));
-     shapes.push_back(new Triangle(Vector3(300.0f, 600.0f, -800), Vector3(0.0f, 100.0f, -1000), Vector3(450.0f, 20.0f, -1000), Color(.8, .2, .2)));
-     */
-    
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(2)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new MarbleTexture(10)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new NoiseTexture()));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(1), new MarbleTexture(10)));
-    //shapes.push_back(new UVSphere(Vector3(0, 0, 0), sqrt(2), new SimpleTexture(Color(.2, .2, .8))));
-    
+    shapes.push_back(new Triangle(Vector3(2, 6, -12), Vector3(2, 3, -16), Vector3(5, 4, -15), new SimpleMaterial(new SimpleTexture(Color(.1, .1, .1)), Color(0, 1, 0), Color(1, 1, 1), 50, 0, Color(.7, .9, .7))));
+
     return shapes;
-    
 }
 
 vector<Lighting*> makeLighting() {
     vector<Lighting*> lights;
-    //Lighting light = Lighting(Vector3(-1, 0 , -5));
     
     lights.push_back(new Lighting(Vector3(-4, 8, -10), Color(1, 1, 1)));
-    lights.push_back(new Lighting(Vector3(6, 4, -2), Color(0, 0, 1)));
-    
+    lights.push_back(new Lighting(Vector3(5, 4, -5), Color(0, 0, 1)));
     lights.push_back(new Lighting(Vector3(3, 10, -3), Color(1, 1,1)));
-     
     
-    /*
-    lights.push_back(new Lighting(Vector3(0.57735027, -0.57735027, -0.57735027), Color(1, 1, 1)));
-    lights.push_back(new Lighting(Vector3(-0.57735027, 0.57735027, -0.57735027), Color(1, 1, 1)));
-    */
     return lights;
 }
 
@@ -141,6 +93,7 @@ bool shadowTrace(Ray r, vector<Shape*> shapes, float tmin, float tmax) {
     return is_hit;
 }
 
+
 Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmin, float tmax, float depth, float max_depth) {
     
     if (depth > max_depth) {return Color(0.0, 0.0, 0.0);}
@@ -163,7 +116,9 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
             Ray reflect_ray = Ray(record.intersection, reflect_dir);
             Color reflectance = traceRay(reflect_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
             radiance += reflectance * record.material -> reflectiveResponse(depth);
+            //printf("%f %f %f", reflectance.getRed(), reflectance.getGreen(), reflectance.getBlue());
         }
+        
         
         /*
         if (record.material -> isTransmissive()) {
@@ -171,7 +126,9 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
             if (record.material -> getTransmissionDirection(record.uvw, r.direction(), extinction, fresnel_scale, trans_dir)) {
                 Ray refract_ray = Ray(record.intersection, trans_dir);
                 Color refraction = traceRay(refract_ray, shapes, lights, tmin, tmax, depth + 1, max_depth);
-                radiance += refraction * record.material -> transmissiveResponse(depth);
+                radiance += refraction * fresnel_scale * extinction;
+                //radiance += refraction * record.material -> transmissiveResponse(depth);
+                //printf("%f %f %f", refraction.getRed(), refraction.getGreen(), refraction.getBlue());
             }
         }
         */
@@ -179,9 +136,9 @@ Color traceRay(Ray r, vector<Shape*> shapes, vector<Lighting*> lights, float tmi
         return radiance;
          
     }
+
     return Color(0, 0, 0);
 }
-
 
 Image draw(float width, float height) {
     IntersectRecord record;
@@ -195,7 +152,7 @@ Image draw(float width, float height) {
     for (int i = 0; i < width; i++) {
         for (int j = 0; j < height; j++) {
             Ray r = cam.getRay(i, j, 0, 0);
-            Color radiance = traceRay(r, shapes, lights, .0001f, 100000.0f, 0, 10);
+            Color radiance = traceRay(r, shapes, lights, 0.0001f, 100000.0f, 0, 5);
             im.set(i, j, radiance);
         }
     }
@@ -245,10 +202,9 @@ void keyboard( unsigned char key, int x, int y ) {
         case 27: // Escape key
             exit(0);
             break;
-        case 119: //w
+        case 119: //w - write out the ppm file to the console!
             if (current_image != NULL) {current_image -> writePPM(cout);}
             break;
-        
     }
 }
 

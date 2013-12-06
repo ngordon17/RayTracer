@@ -59,14 +59,6 @@ Vector3 SimpleMaterial::getReflectionDirection(const ONB& normal, const Vector3&
     reflection += in_dir;
     reflection.normalize();
     return reflection;
-    
-    /*
-    //use dot product to get cos(theta) where theta angle between in_dir and normal
-    float cosine = dot(normal.w(), in_dir);
-    //use cosine to calculate reflected ray (angle of incidence same as exit angle)
-    return in_dir + 2 * cosine * normal.w();
-     */
-     
 }
 
 bool SimpleMaterial::isReflective() {
@@ -80,6 +72,8 @@ bool SimpleMaterial::isTransmissive() {
 bool SimpleMaterial::getTransmissionDirection(const ONB &uvw, const Vector3 &in_dir, Color& _extinction, float &fresnel_scale, Vector3& transmission) {
     
     Vector3 normal = uvw.w();
+    
+    //printf("COS = %f \n", dot(in_dir, normal));
     float cosine = dot(in_dir, normal);
     if (cosine < 0.0f) {//incoming ray
         float temp1 = 1.0f / n;
@@ -92,11 +86,16 @@ bool SimpleMaterial::getTransmissionDirection(const ONB &uvw, const Vector3 &in_
     else { //(cosine > 0.0f) ray outgoing
         float temp2 = (dot(in_dir, normal));
         float root = 1.0f - (n*n) * (1.0f - temp2 * temp2);
-        if (root < 0.0f) {false;} //total internal reflection
+        if (root < 0.0f) {return false;} //total internal reflection
         else {transmission = in_dir * n + -normal * (n * temp2 - sqrt(root));}
         _extinction = transmissive;
     }
+    
+    //printf("COS = %f", cosine);
+    //printf("R = %f", R0);
+    //printf("%f", 1.0f - (R0 + (1.0f - R0) * pow(1.0f - cosine, 5)));
     fresnel_scale = 1.0f - (R0 + (1.0f - R0) * pow(1.0f - cosine, 5));
+    
     return true;
 }
 
